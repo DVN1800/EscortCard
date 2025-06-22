@@ -1,0 +1,1806 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Luxury Escorts Malta | Premium Companion Services</title>
+<meta content="Find the most exclusive escorts in Malta's top locations. Premium companionship services in Valletta, Sliema, St. Julian's and more." name="description"/>
+<!-- Favicon -->
+<link href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;❤&lt;/text&gt;&lt;/svg&gt;" rel="icon"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            100: '#e5e7eb',
+                            200: '#d1d5db',
+                            300: '#9ca3af',
+                            400: '#6b7280',
+                            500: '#4b5563',
+                            600: '#374151',
+                            700: '#1f2937',
+                            800: '#111827',
+                            900: '#0d1321',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<!-- Flag Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"/>
+<!-- Custom Animations -->
+<style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+        .delay-100 { animation-delay: 0.1s; }
+        .delay-200 { animation-delay: 0.2s; }
+        .delay-300 { animation-delay: 0.3s; }
+        .delay-400 { animation-delay: 0.4s; }
+        
+        .escort-card {
+            transition: all 0.3s ease;
+        }
+        .escort-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .gradient-text {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(to right, #ec4899, #f43f5e);
+        }
+        
+        /* Premium header styles */
+        .header-premium {
+            background: rgba(15, 23, 42, 0.96);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .language-dropdown {
+            min-width: 180px;
+        }
+        
+        .auth-button {
+            transition: all 0.3s ease;
+            border: 1px solid rgba(236, 72, 153, 0.3);
+        }
+        
+        .auth-button:hover {
+            background: rgba(236, 72, 153, 0.05);
+            border-color: rgba(236, 72, 153, 0.5);
+        }
+        
+        .auth-button-primary {
+            background: linear-gradient(to right, #ec4899, #f43f5e);
+            color: white;
+        }
+        
+        .auth-button-primary:hover {
+            background: linear-gradient(to right, #db2777, #e11d48);
+        }
+
+        /* Mobile menu styles */
+        #mobile-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background: #0f172a;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: all 0.3s ease;
+            z-index: 50;
+            max-height: calc(100vh - 80px);
+            overflow-y: auto;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        #mobile-menu.active {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        
+        /* New mobile menu item styles */
+        .mobile-menu-item {
+            display: flex;
+            align-items: center;
+            padding: 0.75rem 1rem;
+            margin: 0.25rem 1rem;
+            border-radius: 0.5rem;
+            transition: all 0.2s ease;
+            justify-content: center;
+            font-size: 1.3rem;
+        }
+        .mobile-menu-item:not(.auth-item):hover {
+            background-color: rgba(236, 72, 153, 0.2);
+        }
+        
+        /* Language selector in mobile menu */
+        .mobile-language-selector {
+            position: relative;
+            margin: 1rem;
+        }
+        .mobile-language-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem;
+            color: #d1d5db;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: none;
+            background: transparent;
+        }
+        
+        .mobile-language-option {
+            display: flex;
+            align-items: center;
+            padding: 0.75rem 1rem;
+            color: #d1d5db;
+            transition: all 0.2s ease;
+            border-radius: 0.5rem;
+        }
+        .mobile-language-option:hover {
+            background: #374151;
+            color: white;
+        }
+        .mobile-language-option.active {
+            background: #374151;
+            color: white;
+        }
+        .mobile-language-option .flag-icon {
+            margin-right: 0.75rem;
+            width: 1.25rem;
+            height: 1.25rem;
+            border-radius: 50%;
+        }
+        
+        /* Hero wave in dark colors */
+        .hero-wave {
+            fill: #111827;
+        }
+
+        /* Pricing card equal height */
+        .pricing-card {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        .pricing-card-content {
+            flex: 1;
+        }
+        
+        /* Popular badge - now visible on all devices */
+        .popular-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(to right, #ec4899, #f43f5e);
+            color: white;
+            font-weight: bold;
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            white-space: nowrap;
+            z-index: 10;
+        }
+        
+        /* Carousel styles */
+        .pricing-carousel {
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+        }
+        .pricing-carousel-item {
+            scroll-snap-align: start;
+            flex: 0 0 100%;
+        }
+        @media (min-width: 768px) {
+            .pricing-carousel-item {
+                flex: 0 0 calc(33.333% - 1rem);
+            }
+        }
+        
+        /* Hide scrollbar */
+        .pricing-carousel::-webkit-scrollbar {
+            display: none;
+        }
+        
+        /* Pricing toggle styles */
+        .toggle-container {
+            display: inline-flex;
+            background-color: #1f2937;
+            border-radius: 0.5rem;
+            padding: 0.25rem;
+            margin: 1.5rem 0;
+        }
+        
+        .toggle-option {
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        
+        .toggle-option.active {
+            background: linear-gradient(to right, #ec4899, #f43f5e);
+            color: white;
+        }
+        
+        .toggle-option.inactive {
+            color: #9ca3af;
+        }
+        
+        .toggle-option.inactive:hover {
+            color: white;
+        }
+
+        /* Mobile pricing carousel styles */
+        .pricing-carousel-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .pricing-carousel-track {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        
+        .pricing-carousel-nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+        
+        .pricing-carousel-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #4b5563;
+            margin: 0 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .pricing-carousel-dot.active {
+            background-color: #ec4899;
+        }
+        
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(15, 23, 42, 0.8);
+            border: none;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 10;
+        }
+        
+        .carousel-btn.prev {
+            left: 10px;
+        }
+        
+        .carousel-btn.next {
+            right: 10px;
+        }
+        
+        .carousel-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        /* New header navigation styles */
+        .nav-item {
+            position: relative;
+            padding: 1.5rem 0.75rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: #d1d5db;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-item:hover {
+            color: #ec4899;
+        }
+        
+        .nav-item::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 2px;
+            background: linear-gradient(to right, #ec4899, #f43f5e);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-item:hover::after {
+            width: 100%;
+        }
+        
+        .nav-item.active {
+            color: #ec4899;
+        }
+        
+        .nav-item.active::after {
+            width: 100%;
+        }
+        
+        .nav-item i {
+            margin-right: 8px;
+            font-size: 0.9rem;
+        }
+        
+        /* Premium language switcher - Enhanced */
+        .language-switcher {
+            position: relative;
+            margin-right: 1rem;
+        }
+        
+        .language-switcher-btn {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #d1d5db;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .language-switcher-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border-color: rgba(236, 72, 153, 0.3);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .language-switcher-btn .flag-icon {
+            margin-right: 0.5rem;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+        }
+        
+        .language-dropdown {
+            position: absolute;
+            right: 0;
+            top: 100%;
+            margin-top: 0.5rem;
+            min-width: 200px;
+            background: #1f2937;
+            border-radius: 0.75rem;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 50;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 0.5rem 0;
+        }
+        
+        .language-switcher:hover .language-dropdown {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        
+        .language-option {
+            display: flex;
+            align-items: center;
+            padding: 0.75rem 1.25rem;
+            color: #d1d5db;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+        
+        .language-option:hover {
+            background: linear-gradient(90deg, rgba(236, 72, 153, 0.15) 0%, rgba(236, 72, 153, 0.05) 100%);
+            color: white;
+            padding-left: 1.5rem;
+        }
+        
+        .language-option::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 3px;
+            background: linear-gradient(to bottom, #ec4899, #f43f5e);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+        
+        .language-option:hover::before {
+            opacity: 1;
+        }
+        
+        .language-option .flag-icon {
+            margin-right: 0.75rem;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+        }
+        
+        /* Escort card adjustments */
+        .escort-card-mobile { /* This class is on the main card div */
+            padding: 0 !important; /* Keep this as it was specific to Header.html's card version */
+        }
+        
+        /* Mobile-specific styles for escort cards - Updated to match Escort page */
+        
+
+@media (max-width: 767px) {
+    .escort-card .relative.overflow-hidden {
+        width: 100% !important;
+        height: 260px !important; /* Maintain previous height explicitly */
+        margin: 0 !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+    }
+    .escort-card .relative.overflow-hidden img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        display: block !important;
+    }
+    .escort-card {
+        padding: 0 !important;
+    }
+}
+
+    .escort-card .relative.overflow-hidden img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: cover !important;
+        display: block !important;
+    }
+    .escort-card {
+        padding: 0 !important;
+    }
+}
+
+            .escort-card .relative.overflow-hidden img {
+                height: 100% !important;
+                object-fit: cover;
+            }
+            .escort-card {
+                padding: 0 !important;
+            }
+            .escort-card .relative.overflow-hidden {
+                margin: 0 !important;
+                padding: 0 !important;
+                width: 100% !important;
+                height: auto !important;
+                border-radius: 0 !important;
+            }
+            .escort-card .relative.overflow-hidden img {
+                width: 100% !important;
+                height: auto !important;
+                object-fit: cover;
+                display: block;
+            }
+        }
+    
+@media (max-width: 767px) {
+    .escort-card-mobile {
+        padding: 0.75rem;
+    }
+    .escort-card-mobile .escort-info {
+        font-size: 0.8rem;
+    }
+    .escort-card-mobile .escort-name {
+        font-size: 0.9rem;
+    }
+    .escort-card-mobile .escort-price {
+        font-size: 0.85rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .escort-card {
+        border-radius: 12px !important;
+        padding: 0 !important;
+        overflow: hidden;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+        background: #191c24;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .escort-card .relative.overflow-hidden {
+        border-radius: 12px !important;
+        height: 220px !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .escort-card .relative.overflow-hidden img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        display: block !important;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .escort-card .relative.overflow-hidden {
+        border-radius: 12px 12px 0 0 !important; /* Only top corners rounded */
+    }
+    .escort-card .relative.overflow-hidden img {
+        border-radius: 12px 12px 0 0 !important; /* Only top corners rounded */
+    }
+}
+</style>
+<style>
+        html {
+            font-size: 80%;
+        }
+        @media (max-width: 768px) {
+            html {
+                font-size: 100%;
+            }
+        }
+    </style>
+</head>
+<body class="bg-dark-900 text-dark-100 font-sans antialiased">
+<!-- Premium Header -->
+<header class="header-premium sticky top-0 z-50">
+<div class="container mx-auto px-4">
+<!-- Main Navigation -->
+<div class="flex justify-between items-center py-3 md:py-4 relative">
+<!-- Mobile Menu Button -->
+<button class="text-dark-200 focus:outline-none md:hidden" id="mobile-menu-button">
+<i class="fas fa-bars text-xl"></i>
+</button>
+<!-- Logo - Centered on mobile -->
+<a class="text-xl font-bold mx-auto md:mx-0 md:relative md:text-2xl" href="index.html">
+<span class="gradient-text">Luxury</span>MaltaEscorts
+                </a>
+<!-- Mobile Auth Buttons -->
+<div class="flex items-center space-x-4 md:hidden">
+<a class="text-pink-500" href="favorites.html">
+<i class="fas fa-heart text-xl"></i>
+</a>
+<button class="text-pink-500 cursor-pointer" onclick="openAuthModal('login')">
+<i class="fas fa-user-circle text-xl"></i>
+</button>
+</div>
+<!-- Desktop Navigation -->
+<nav class="hidden md:flex items-center space-x-1">
+<a class="nav-item active" href="index.html">
+<i class="fas fa-home"></i> HOME
+                    </a>
+<a class="nav-item" href="escorts.html">
+<i class="fas fa-users"></i> ESCORTS
+                    </a>
+<a class="nav-item" href="favorites.html">
+<i class="fas fa-heart"></i> FAVORITES
+                    </a>
+<a class="nav-item" href="affiliation.html">
+<i class="fas fa-handshake"></i> AFFILIATION
+                    </a>
+<a class="nav-item" href="faq.html">
+<i class="fas fa-question-circle"></i> FAQ
+                    </a>
+<a class="nav-item" href="contact.html">
+<i class="fas fa-envelope"></i> CONTACT
+                    </a>
+</nav>
+<!-- Desktop Auth and Language -->
+<div class="hidden md:flex items-center space-x-4 ml-6">
+<!-- Premium Language Switcher - Enhanced -->
+<div class="language-switcher">
+<button class="language-switcher-btn">
+<span class="flag-icon flag-icon-gb"></span>
+                            ENGLISH
+                            <i class="fas fa-chevron-down ml-2 text-xs transition-transform duration-200"></i>
+</button>
+<div class="language-dropdown">
+<a class="language-option" href="#">
+<span class="flag-icon flag-icon-it"></span>
+                                Italiano
+                            </a>
+<a class="language-option" href="#">
+<span class="flag-icon flag-icon-fr"></span>
+                                Français
+                            </a>
+<a class="language-option" href="#">
+<span class="flag-icon flag-icon-nl"></span>
+                                Nederlands
+                            </a>
+<a class="language-option" href="#">
+<span class="flag-icon flag-icon-de"></span>
+                                Deutsch
+                            </a>
+<a class="language-option" href="#">
+<span class="flag-icon flag-icon-es"></span>
+                                Español
+                            </a>
+<a class="language-option" href="#">
+<span class="flag-icon flag-icon-pt"></span>
+                                Português
+                            </a>
+<a class="language-option" href="#">
+<span class="flag-icon flag-icon-mt"></span>
+                                Malti
+                            </a>
+</div>
+</div>
+<!-- Auth Buttons -->
+<div class="flex items-center space-x-2">
+<button class="auth-button px-4 py-2 rounded-full text-sm font-medium text-pink-500 cursor-pointer" onclick="openAuthModal('login')">
+                            Login
+                        </button>
+<button class="auth-button auth-button-primary px-4 py-2 rounded-full text-sm font-medium text-white cursor-pointer" onclick="openAuthModal('register')">
+                            Register
+                        </button>
+</div>
+</div>
+</div>
+<!-- Mobile Navigation -->
+<div class="absolute" id="mobile-menu">
+<div class="py-2">
+<a class="mobile-menu-item text-pink-500 font-medium" href="index.html">
+ Home
+                    </a>
+<a class="mobile-menu-item text-dark-200" href="escorts.html">
+ Escorts
+                    </a>
+<a class="mobile-menu-item text-dark-200" href="favorites.html">
+ Favorites
+                    </a>
+<a class="mobile-menu-item text-dark-200" href="affiliation.html">
+ Affiliation
+                    </a>
+<a class="mobile-menu-item text-dark-200" href="faq.html">
+ FAQ
+                    </a>
+<a class="mobile-menu-item text-dark-200" href="contact.html">
+ Contact
+                    </a>
+<!-- Premium Language Selector in Mobile Menu -->
+<div class="mobile-language-selector">
+<button class="mobile-language-btn" onclick="openLanguagePopup()">
+<span class="flag-icon flag-icon-gb mr-2"></span>
+                            English
+                            <i class="fas fa-chevron-down ml-2 text-xs"></i>
+</button>
+</div>
+<a class="mobile-menu-item auth-item text-center justify-center border border-pink-500 text-pink-500 font-medium rounded-lg" href="#" onclick="openAuthModal('login'); mobileMenu.classList.remove('active');">
+<i class="fas fa-sign-in-alt mr-2"></i> Login
+                    </a>
+<a class="mobile-menu-item auth-item text-center justify-center bg-gradient-to-r from-pink-600 to-purple-600 text-white font-medium rounded-lg mt-2" href="#" onclick="openAuthModal('register'); mobileMenu.classList.remove('active');">
+<i class="fas fa-user-plus mr-2"></i> Register
+                    </a>
+</div>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative bg-gradient-to-r from-purple-900 to-pink-700 text-white overflow-hidden">
+<div class="absolute inset-0 bg-black opacity-40"></div>
+<div class="container mx-auto px-4 py-24 relative z-10">
+<div class="max-w-3xl mx-auto text-center animate-fade-in">
+<h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                    Discover Malta's Most <span class="gradient-text">Exclusive</span> Companions
+                </h1>
+<p class="text-xl mb-8 text-gray-200">
+                    Premium escort services in Valletta, Sliema, St. Julian's and across Malta
+                </p>
+<a class="inline-block bg-pink-600 hover:bg-pink-700 text-white font-bold py-3 px-8 rounded-full transition transform hover:scale-105 shadow-lg" href="girls.html">
+                    Browse Escorts
+                </a>
+</div>
+</div>
+</section>
+<!-- Search Section -->
+<section class="container mx-auto px-4 py-12 -mt-16 z-20 relative">
+<div class="bg-dark-800 rounded-xl shadow-2xl p-6 animate-fade-in delay-100 border border-dark-700">
+<h2 class="text-2xl font-bold mb-6 text-center text-dark-100">
+                Find Your Perfect Companion
+            </h2>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-4">
+<!-- Location Select -->
+<div class="relative">
+<select class="w-full px-4 py-3 rounded-lg border border-dark-600 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 transition appearance-none bg-dark-700 text-dark-100">
+<option value="">All Locations</option>
+<option value="valletta">Valletta</option>
+<option value="sliema">Sliema</option>
+<option value="st-julians">St. Julian's</option>
+<option value="bugibba">Bugibba</option>
+<option value="mdina">Mdina</option>
+<option value="marsaxlokk">Marsaxlokk</option>
+<option value="gozo">Gozo</option>
+<option value="rabat">Rabat</option>
+<option value="gzira">Gzira</option>
+<option value="birgu">Birgu</option>
+</select>
+<div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-dark-400">
+<i class="fas fa-map-marker-alt"></i>
+</div>
+</div>
+<!-- Service Select -->
+<div class="relative">
+<select class="w-full px-4 py-3 rounded-lg border border-dark-600 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 transition appearance-none bg-dark-700 text-dark-100">
+<option value="">All Services</option>
+<option value="gfe">Girlfriend Experience</option>
+<option value="pse">Pornstar Experience</option>
+<option value="massage">Erotic Massage</option>
+<option value="overnight">Overnight Stay</option>
+<option value="couples">Couples</option>
+<option value="fetish">Fetish</option>
+<option value="travel">Travel Companion</option>
+</select>
+<div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-dark-400">
+<i class="fas fa-list"></i>
+</div>
+</div>
+<!-- Price Range -->
+<div class="relative">
+<select class="w-full px-4 py-3 rounded-lg border border-dark-600 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 transition appearance-none bg-dark-700 text-dark-100">
+<option value="">Any Price</option>
+<option value="100-150">€100-€150</option>
+<option value="150-200">€150-€200</option>
+<option value="200-300">€200-€300</option>
+<option value="300-500">€300-€500</option>
+<option value="500+">€500+</option>
+</select>
+<div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-dark-400">
+<i class="fas fa-euro-sign"></i>
+</div>
+</div>
+<!-- Search Button -->
+<button class="w-full bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white font-bold py-3 px-4 rounded-lg transition transform hover:scale-105 shadow-md">
+                    Search Now
+                </button>
+</div>
+<div class="text-center">
+<a class="text-pink-500 hover:text-pink-400 font-medium inline-flex items-center" href="girls.html">
+                    Advanced Search <i class="fas fa-chevron-right ml-2"></i>
+</a>
+</div>
+</div>
+</section>
+<!-- Featured Escorts -->
+<section class="container mx-auto px-4 py-12">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold mb-4 animate-fade-in delay-200 text-dark-100">
+                Featured <span class="gradient-text">Premium</span> Escorts
+            </h2>
+<p class="text-dark-300 max-w-2xl mx-auto animate-fade-in delay-300">
+                Hand-selected companions offering exceptional experiences across Malta
+            </p>
+</div>
+<div class="grid lg:grid-cols-6 grid grid-cols-2 gap-2 md:grid-cols-6">
+<!-- Escort Card 1 -->
+<div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile">
+<div class="relative overflow-hidden aspect-[3/4]">
+<img alt="Sophia - Premium Escort in Sliema" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=761&amp;q=80"/>
+<div class="absolute top-2 right-2 bg-pink-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        VERIFIED
+                    </div>
+</div>
+<div class="p-2 md:p-3">
+<div class="flex justify-between items-center mb-1">
+<h3 class="font-bold escort-name text-dark-100">Sophia</h3>
+<span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                            €250/h
+                        </span>
+</div>
+<div class="flex justify-between items-center escort-info">
+<p class="text-dark-300 flex items-center text-xs md:text-sm">
+<i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> Sliema
+                        </p>
+<button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Sophia')">
+<i class="fas fa-phone-alt text-xs md:text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Escort Card 2 -->
+<div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile">
+<div class="relative overflow-hidden aspect-[3/4]">
+<img alt="Elena - Luxury Companion in Valletta" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80"/>
+<div class="absolute top-2 right-2 bg-pink-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        NEW
+                    </div>
+</div>
+<div class="p-2 md:p-3">
+<div class="flex justify-between items-center mb-1">
+<h3 class="font-bold escort-name text-dark-100">Elena</h3>
+<span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                            €300/h
+                        </span>
+</div>
+<div class="flex justify-between items-center escort-info">
+<p class="text-dark-300 flex items-center text-xs md:text-sm">
+<i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> Valletta
+                        </p>
+<button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Elena')">
+<i class="fas fa-phone-alt text-xs md:text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Escort Card 3 -->
+<div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile">
+<div class="relative overflow-hidden aspect-[3/4]">
+<img alt="Mia - Elite Escort in St. Julian's" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80"/>
+<div class="absolute top-2 right-2 bg-pink-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        VERIFIED
+                    </div>
+</div>
+<div class="p-2 md:p-3">
+<div class="flex justify-between items-center mb-1">
+<h3 class="font-bold escort-name text-dark-100">Mia</h3>
+<span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                            €350/h
+                        </span>
+</div>
+<div class="flex justify-between items-center escort-info">
+<p class="text-dark-300 flex items-center text-xs md:text-sm">
+<i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> St. Julian's
+                        </p>
+<button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Mia')">
+<i class="fas fa-phone-alt text-xs md:text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Escort Card 4 -->
+<div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile">
+<div class="relative overflow-hidden aspect-[3/4]">
+<img alt="Lily - Sensual Massage in Bugibba" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=686&amp;q=80"/>
+<div class="absolute top-2 right-2 bg-purple-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        MASSAGE
+                    </div>
+</div>
+<div class="p-2 md:p-3">
+<div class="flex justify-between items-center mb-1">
+<h3 class="font-bold escort-name text-dark-100">Lily</h3>
+<span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                            €180/h
+                        </span>
+</div>
+<div class="flex justify-between items-center escort-info">
+<p class="text-dark-300 flex items-center text-xs md:text-sm">
+<i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> Bugibba
+                        </p>
+<button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Lily')">
+<i class="fas fa-phone-alt text-xs md:text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Escort Card 5 -->
+<div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile">
+<div class="relative overflow-hidden aspect-[3/4]">
+<img alt="Anna - Elite Companion in Sliema" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=688&amp;q=80"/>
+<div class="absolute top-2 right-2 bg-pink-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        VERIFIED
+                    </div>
+</div>
+<div class="p-2 md:p-3">
+<div class="flex justify-between items-center mb-1">
+<h3 class="font-bold escort-name text-dark-100">Anna</h3>
+<span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                            €280/h
+                        </span>
+</div>
+<div class="flex justify-between items-center escort-info">
+<p class="text-dark-300 flex items-center text-xs md:text-sm">
+<i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> Sliema
+                        </p>
+<button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Anna')">
+<i class="fas fa-phone-alt text-xs md:text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Escort Card 6 -->
+<div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile">
+<div class="relative overflow-hidden aspect-[3/4]">
+<img alt="Emma - VIP Escort in Valletta" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80"/>
+<div class="absolute top-2 right-2 bg-pink-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        VIP
+                    </div>
+</div>
+<div class="p-2 md:p-3">
+<div class="flex justify-between items-center mb-1">
+<h3 class="font-bold escort-name text-dark-100">Emma</h3>
+<span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                            €400/h
+                        </span>
+</div>
+<div class="flex justify-between items-center escort-info">
+<p class="text-dark-300 flex items-center text-xs md:text-sm">
+<i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> Valletta
+                        </p>
+<button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Emma')">
+<i class="fas fa-phone-alt text-xs md:text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center mt-10">
+<a class="inline-flex items-center text-pink-500 hover:text-pink-400 font-bold text-lg" href="girls.html">
+                View All Escorts <i class="fas fa-arrow-right ml-2"></i>
+</a>
+</div>
+</section>
+<!-- Models Recruitment Section -->
+<section class="container mx-auto px-4 py-16">
+<div class="bg-gradient-to-r from-purple-900 to-pink-700 rounded-2xl p-8 md:p-12 text-center text-white">
+<h2 class="text-3xl font-bold mb-4">Premium Models Wanted</h2>
+<p class="text-xl mb-8 max-w-2xl mx-auto text-pink-100">
+                Join Malta's most exclusive escort directory and connect with high-end clients
+            </p>
+<div class="grid md:grid-cols-3 gap-8 text-center max-w-5xl mx-auto mb-8">
+<div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg p-6 rounded-xl border border-white border-opacity-20">
+<div class="flex items-center justify-center mb-3">
+<i class="fas fa-star text-3xl mr-3 text-pink-300"></i>
+<h3 class="font-bold text-xl">Premium Exposure</h3>
+</div>
+<p class="text-pink-100">
+                        Showcase your profile to thousands of discerning clients looking for high-end companionship.
+                    </p>
+</div>
+<div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg p-6 rounded-xl border border-white border-opacity-20">
+<div class="flex items-center justify-center mb-3">
+<i class="fas fa-shield-alt text-3xl mr-3 text-pink-300"></i>
+<h3 class="font-bold text-xl">Discretion Guaranteed</h3>
+</div>
+<p class="text-pink-100">
+                        We prioritize your privacy with secure verification and discreet profile management.
+                    </p>
+</div>
+<div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg p-6 rounded-xl border border-white border-opacity-20">
+<div class="flex items-center justify-center mb-3">
+<i class="fas fa-euro-sign text-3xl mr-3 text-pink-300"></i>
+<h3 class="font-bold text-xl">Higher Earnings</h3>
+</div>
+<p class="text-pink-100">
+                        Our premium platform attracts clients willing to pay premium rates for exceptional companions.
+                    </p>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<a class="bg-white text-pink-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-full transition transform hover:scale-105 shadow-lg" href="models-apply.html">
+                    Apply Now
+                </a>
+<button class="bg-transparent border-2 border-white text-white hover:bg-white hover:bg-opacity-20 font-bold py-3 px-8 rounded-full transition transform hover:scale-105" onclick="openModelsPricingPopup()">
+                    Learn More
+                </button>
+</div>
+</div>
+</section>
+<!-- Models Pricing Popup -->
+<div class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black bg-opacity-70 backdrop-blur-sm" id="models-pricing-popup">
+<div class="relative bg-dark-800 rounded-xl shadow-2xl w-full max-w-4xl overflow-hidden border border-dark-700 animate-fade-in">
+<!-- Close Button -->
+<button class="absolute top-4 right-4 text-dark-300 hover:text-pink-500 transition z-10" onclick="closeModelsPricingPopup()">
+<i class="fas fa-times text-xl"></i>
+</button>
+<!-- Popup Content -->
+<div class="p-6 md:p-8">
+<div class="text-center mb-6">
+<h2 class="text-2xl md:text-3xl font-bold mb-4" style="background: linear-gradient(to right, #ec4899, #f43f5e); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Premium Membership Plans</h2>
+<p class="text-dark-300 max-w-2xl mx-auto text-sm md:text-base">
+                        Choose the perfect plan to showcase your profile and connect with high-end clients in Malta
+                    </p>
+<!-- Pricing Toggle -->
+<div class="toggle-container">
+<div class="toggle-option active" id="monthly-toggle" onclick="setPricing('monthly')">
+                            Monthly
+                        </div>
+<div class="toggle-option inactive" id="yearly-toggle" onclick="setPricing('yearly')">
+                            Yearly (Save 20%)
+                        </div>
+</div>
+</div>
+<!-- Mobile Pricing Carousel -->
+<div class="md:hidden pricing-carousel-container">
+<div class="pricing-carousel-track" id="mobile-pricing-carousel">
+<!-- Standard Plan -->
+<div class="pricing-carousel-item p-2">
+<div class="pricing-card bg-dark-700 rounded-xl p-6 h-full">
+<div class="pricing-card-content">
+<h3 class="text-xl font-bold mb-2 text-dark-100">Standard</h3>
+<p class="text-dark-300 mb-6 text-sm">Essential features to get started</p>
+<div class="mb-6">
+<div class="text-4xl font-bold mb-1 text-pink-500">
+<span id="standard-price-mobile">€49</span>
+<span class="text-lg text-dark-400">/mo</span>
+</div>
+<div class="text-sm text-dark-400">
+<span class="hidden" id="standard-yearly-text-mobile">Billed annually at €470</span>
+<span id="standard-monthly-text-mobile">Billed monthly</span>
+</div>
+</div>
+<ul class="space-y-3 mb-8 text-sm text-dark-300">
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Profile listing</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>5 photos</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Basic search visibility</span>
+</li>
+<li class="flex items-center text-dark-400">
+<i class="fas fa-times text-dark-600 mr-2"></i>
+<span>No priority placement</span>
+</li>
+<li class="flex items-center text-dark-400">
+<i class="fas fa-times text-dark-600 mr-2"></i>
+<span>Limited statistics</span>
+</li>
+</ul>
+<a class="block w-full text-center bg-dark-600 hover:bg-dark-500 text-white font-medium py-3 px-4 rounded-lg transition" href="models-apply.html?plan=basic">
+                                        Choose Plan
+                                    </a>
+</div>
+</div>
+</div>
+<!-- Premium Plan (Popular) -->
+<div class="pricing-carousel-item p-2">
+<div class="pricing-card bg-dark-700 rounded-xl p-6 h-full relative border-2 border-pink-500">
+<div class="absolute top-0 right-0 bg-gradient-to-r from-pink-600 to-purple-600 text-white text-xs font-bold px-3 py-1 rounded-tr-lg rounded-bl-lg">
+                                    MOST POPULAR
+                                </div>
+<div class="pricing-card-content">
+<h3 class="text-xl font-bold mb-2 text-dark-100">Premium</h3>
+<p class="text-dark-300 mb-6 text-sm">Enhanced visibility and features</p>
+<div class="mb-6">
+<div class="text-4xl font-bold mb-1 text-pink-500">
+<span id="premium-price-mobile">€99</span>
+<span class="text-lg text-dark-400">/mo</span>
+</div>
+<div class="text-sm text-dark-400">
+<span class="hidden" id="premium-yearly-text-mobile">Billed annually at €950</span>
+<span id="premium-monthly-text-mobile">Billed monthly</span>
+</div>
+</div>
+<ul class="space-y-3 mb-8 text-sm text-dark-300">
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Featured profile listing</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>15 photos + 1 video</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Priority in search results</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Weekly featured spot</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Full statistics</span>
+</li>
+</ul>
+<a class="block w-full text-center bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white font-bold py-3 px-4 rounded-lg transition" href="models-apply.html?plan=premium">
+                                        Choose Plan
+                                    </a>
+</div>
+</div>
+</div>
+<!-- VIP Plan -->
+<div class="pricing-carousel-item p-2">
+<div class="pricing-card bg-dark-700 rounded-xl p-6 h-full">
+<div class="pricing-card-content">
+<h3 class="text-xl font-bold mb-2 text-dark-100">VIP</h3>
+<p class="text-dark-300 mb-6 text-sm">Maximum exposure and benefits</p>
+<div class="mb-6">
+<div class="text-4xl font-bold mb-1 text-pink-500">
+<span id="vip-price-mobile">€199</span>
+<span class="text-lg text-dark-400">/mo</span>
+</div>
+<div class="text-sm text-dark-400">
+<span class="hidden" id="vip-yearly-text-mobile">Billed annually at €1,910</span>
+<span id="vip-monthly-text-mobile">Billed monthly</span>
+</div>
+</div>
+<ul class="space-y-3 mb-8 text-sm text-dark-300">
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Top placement in all listings</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Unlimited photos + 3 videos</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Homepage featured spot</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Dedicated account manager</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Advanced statistics &amp; insights</span>
+</li>
+</ul>
+<a class="block w-full text-center bg-dark-600 hover:bg-dark-500 text-white font-medium py-3 px-4 rounded-lg transition" href="models-apply.html?plan=vip">
+                                        Choose Plan
+                                    </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Carousel Navigation -->
+<div class="flex justify-center mt-4">
+<button class="carousel-btn prev" onclick="moveCarousel(-1)">
+<i class="fas fa-chevron-left"></i>
+</button>
+<button class="carousel-btn next" onclick="moveCarousel(1)">
+<i class="fas fa-chevron-right"></i>
+</button>
+</div>
+<div class="pricing-carousel-nav">
+<span class="pricing-carousel-dot active" onclick="goToSlide(0)"></span>
+<span class="pricing-carousel-dot" onclick="goToSlide(1)"></span>
+<span class="pricing-carousel-dot" onclick="goToSlide(2)"></span>
+</div>
+</div>
+<!-- Desktop Pricing Cards -->
+<div class="hidden md:grid md:grid-cols-3 gap-6 mb-8">
+<!-- Standard Plan -->
+<div class="pricing-card bg-dark-700 rounded-xl p-6 h-full">
+<div class="pricing-card-content">
+<h3 class="text-xl font-bold mb-2 text-dark-100">Standard</h3>
+<p class="text-dark-300 mb-6 text-sm">Essential features to get started</p>
+<div class="mb-6">
+<div class="text-4xl font-bold mb-1 text-pink-500">
+<span id="standard-price">€49</span>
+<span class="text-lg text-dark-400">/mo</span>
+</div>
+<div class="text-sm text-dark-400">
+<span class="hidden" id="standard-yearly-text">Billed annually at €470</span>
+<span id="standard-monthly-text">Billed monthly</span>
+</div>
+</div>
+<ul class="space-y-3 mb-8 text-sm text-dark-300">
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Profile listing</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>5 photos</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Basic search visibility</span>
+</li>
+<li class="flex items-center text-dark-400">
+<i class="fas fa-times text-dark-600 mr-2"></i>
+<span>No priority placement</span>
+</li>
+<li class="flex items-center text-dark-400">
+<i class="fas fa-times text-dark-600 mr-2"></i>
+<span>Limited statistics</span>
+</li>
+</ul>
+<a class="block w-full text-center bg-dark-600 hover:bg-dark-500 text-white font-medium py-3 px-4 rounded-lg transition" href="models-apply.html?plan=basic">
+                                Choose Plan
+                            </a>
+</div>
+</div>
+<!-- Premium Plan (Popular) -->
+<div class="pricing-card bg-dark-700 rounded-xl p-6 h-full relative border-2 border-pink-500">
+<div class="absolute top-0 right-0 bg-gradient-to-r from-pink-600 to-purple-600 text-white text-xs font-bold px-3 py-1 rounded-tr-lg rounded-bl-lg">
+                            MOST POPULAR
+                        </div>
+<div class="pricing-card-content">
+<h3 class="text-xl font-bold mb-2 text-dark-100">Premium</h3>
+<p class="text-dark-300 mb-6 text-sm">Enhanced visibility and features</p>
+<div class="mb-6">
+<div class="text-4xl font-bold mb-1 text-pink-500">
+<span id="premium-price">€99</span>
+<span class="text-lg text-dark-400">/mo</span>
+</div>
+<div class="text-sm text-dark-400">
+<span class="hidden" id="premium-yearly-text">Billed annually at €950</span>
+<span id="premium-monthly-text">Billed monthly</span>
+</div>
+</div>
+<ul class="space-y-3 mb-8 text-sm text-dark-300">
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Featured profile listing</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>15 photos + 1 video</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Priority in search results</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Weekly featured spot</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Full statistics</span>
+</li>
+</ul>
+<a class="block w-full text-center bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white font-bold py-3 px-4 rounded-lg transition" href="models-apply.html?plan=premium">
+                                Choose Plan
+                            </a>
+</div>
+</div>
+<!-- VIP Plan -->
+<div class="pricing-card bg-dark-700 rounded-xl p-6 h-full">
+<div class="pricing-card-content">
+<h3 class="text-xl font-bold mb-2 text-dark-100">VIP</h3>
+<p class="text-dark-300 mb-6 text-sm">Maximum exposure and benefits</p>
+<div class="mb-6">
+<div class="text-4xl font-bold mb-1 text-pink-500">
+<span id="vip-price">€199</span>
+<span class="text-lg text-dark-400">/mo</span>
+</div>
+<div class="text-sm text-dark-400">
+<span class="hidden" id="vip-yearly-text">Billed annually at €1,910</span>
+<span id="vip-monthly-text">Billed monthly</span>
+</div>
+</div>
+<ul class="space-y-3 mb-8 text-sm text-dark-300">
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Top placement in all listings</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Unlimited photos + 3 videos</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Homepage featured spot</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Dedicated account manager</span>
+</li>
+<li class="flex items-center">
+<i class="fas fa-check text-pink-500 mr-2"></i>
+<span>Advanced statistics &amp; insights</span>
+</li>
+</ul>
+<a class="block w-full text-center bg-dark-600 hover:bg-dark-500 text-white font-medium py-3 px-4 rounded-lg transition" href="models-apply.html?plan=vip">
+                                Choose Plan
+                            </a>
+</div>
+</div>
+</div>
+<div class="text-center text-sm text-dark-300">
+<p>All plans include our premium verification process and 24/7 support.</p>
+<p>Cancel anytime with no long-term commitment.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="bg-gray-900 text-white pt-16 pb-8">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 text-center">
+<!-- About -->
+<div>
+<h3 class="text-xl font-bold mb-4">LuxuryMaltaEscorts</h3>
+<p class="text-gray-400">
+                        Malta's premier directory for high-end companion services. Connecting discerning clients with verified, premium escorts across the islands.
+                    </p>
+</div>
+<!-- Quick Links -->
+<div>
+<h3 class="text-lg font-bold mb-4">Quick Links</h3>
+<ul class="space-y-2">
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="index.html">Home</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="escorts.html"> Escorts</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="favorites.html"> Favorites</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="affiliation.html"> Affiliation</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="faq.html"> FAQ</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="contact.html">Contact</a></li>
+</ul>
+</div>
+<!-- Information -->
+<div>
+<h3 class="text-lg font-bold mb-4">Information</h3>
+<ul class="space-y-2">
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="about.html">About Us</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="safety.html">Safety Tips</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="testterms.html">Terms</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="testprivacy.html">Privacy Policy</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="models.html">Models Wanted</a></li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div>
+<h3 class="text-lg font-bold mb-4">Newsletter</h3>
+<p class="text-gray-400 mb-4">
+                        Subscribe for updates on new companions and exclusive offers.
+                    </p>
+<form class="flex max-w-md mx-auto">
+<input class="px-4 py-2 rounded-l-lg focus:outline-none text-gray-900 w-full" placeholder="Your email" type="email"/>
+<button class="bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-r-lg transition" type="submit">
+<i class="fas fa-paper-plane"></i>
+</button>
+</form>
+<div class="mt-4 flex space-x-4 justify-center">
+<a class="text-gray-400 hover:text-pink-500 transition" href="#">
+<i class="fab fa-facebook-f"></i>
+</a>
+<a class="text-gray-400 hover:text-pink-500 transition" href="#">
+<i class="fab fa-twitter"></i>
+</a>
+<a class="text-gray-400 hover:text-pink-500 transition" href="#">
+<i class="fab fa-instagram"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="pt-8 border-t border-dark-700">
+<div class="flex flex-col md:flex-row justify-between items-center">
+<p class="text-sm mb-4 md:mb-0">
+                        © 2023 LuxuryMaltaEscorts. All rights reserved.
+                    </p>
+<div class="flex space-x-6 text-sm">
+<a class="hover:text-pink-500 transition" href="testprivacy.html">Privacy Policy</a>
+<a class="hover:text-pink-500 transition" href="testterms.html">Terms of Service</a>
+<a class="hover:text-pink-500 transition" href="testdisclaimer.html">Disclaimer</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!-- Language Popup -->
+<div class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black bg-opacity-50 backdrop-blur-sm" id="language-popup">
+<div class="relative bg-dark-800 rounded-xl shadow-2xl w-full max-w-xs overflow-hidden border border-dark-700 animate-fade-in">
+<!-- Close Button -->
+<button class="absolute top-4 right-4 text-dark-300 hover:text-pink-500 transition" onclick="closeLanguagePopup()">
+<i class="fas fa-times text-xl"></i>
+</button>
+<!-- Popup Content -->
+<div class="p-6">
+<h3 class="text-xl font-bold mb-4 text-center text-dark-100">Select Language</h3>
+<div class="space-y-2 max-h-96 overflow-y-auto">
+<a class="mobile-language-option active block" href="#">
+<span class="flag-icon flag-icon-gb mr-3"></span>
+                        English
+                    </a>
+<a class="mobile-language-option block" href="#">
+<span class="flag-icon flag-icon-it mr-3"></span>
+                        Italiano
+                    </a>
+<a class="mobile-language-option block" href="#">
+<span class="flag-icon flag-icon-fr mr-3"></span>
+                        Français
+                    </a>
+<a class="mobile-language-option block" href="#">
+<span class="flag-icon flag-icon-nl mr-3"></span>
+                        Nederlands
+                    </a>
+<a class="mobile-language-option block" href="#">
+<span class="flag-icon flag-icon-de mr-3"></span>
+                        Deutsch
+                    </a>
+<a class="mobile-language-option block" href="#">
+<span class="flag-icon flag-icon-es mr-3"></span>
+                        Español
+                    </a>
+<a class="mobile-language-option block" href="#">
+<span class="flag-icon flag-icon-pt mr-3"></span>
+                        Português
+                    </a>
+<a class="mobile-language-option block" href="#">
+<span class="flag-icon flag-icon-mt mr-3"></span>
+                        Malti
+                    </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Mobile Menu Script -->
+<script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', function(e) {
+            e.stopPropagation();
+            mobileMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!mobileMenu.contains(e.target) && e.target !== mobileMenuButton) {
+                mobileMenu.classList.remove('active');
+            }
+        });
+        
+        // Language popup functions
+        function openLanguagePopup() {
+            document.getElementById('language-popup').classList.remove('hidden');
+            // Close mobile menu if open
+            document.getElementById('mobile-menu').classList.remove('active');
+        }
+        
+        function closeLanguagePopup() {
+            document.getElementById('language-popup').classList.add('hidden');
+        }
+        
+        // Language selection functionality
+        document.querySelectorAll('#language-popup .mobile-language-option').forEach(option => {
+            option.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Remove active class from all options
+                document.querySelectorAll('#language-popup .mobile-language-option').forEach(opt => {
+                    opt.classList.remove('active');
+                });
+                
+                // Add active class to clicked option
+                this.classList.add('active');
+                
+                // Update button text and flag
+                const flagIcon = this.querySelector('.flag-icon').cloneNode(true);
+                const languageText = this.textContent.trim();
+                const languageBtn = document.querySelector('.mobile-language-btn');
+
+                // Clear button content
+                languageBtn.innerHTML = '';
+
+                // Add flag and text
+                languageBtn.appendChild(flagIcon);
+                languageBtn.appendChild(document.createTextNode(' ' + languageText));
+                languageBtn.innerHTML += '<i class="fas fa-chevron-down ml-2 text-xs"></i>';
+                
+                // Close popup
+                closeLanguagePopup();
+            });
+        });
+        
+        // Close popup when clicking outside
+        document.getElementById('language-popup').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeLanguagePopup();
+            }
+        });
+
+        // Models Pricing Popup functions
+        function openModelsPricingPopup() {
+            document.getElementById('models-pricing-popup').classList.remove('hidden');
+        }
+        
+        function closeModelsPricingPopup() {
+            document.getElementById('models-pricing-popup').classList.add('hidden');
+        }
+        
+        // Close popup when clicking outside
+        document.getElementById('models-pricing-popup').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModelsPricingPopup();
+            }
+        });
+
+        // Pricing toggle functionality
+        const monthlyToggle = document.getElementById('monthly-toggle');
+        const yearlyToggle = document.getElementById('yearly-toggle');
+        
+        // Monthly prices
+        const standardPrice = 49;
+        const premiumPrice = 99;
+        const vipPrice = 199;
+        
+        // Yearly prices (20% discount)
+        const standardYearly = Math.round(standardPrice * 12 * 0.8);
+        const premiumYearly = Math.round(premiumPrice * 12 * 0.8);
+        const vipYearly = Math.round(vipPrice * 12 * 0.8);
+        
+        function setPricing(period) {
+            if (period === 'monthly') {
+                // Update toggle buttons
+                monthlyToggle.classList.add('active');
+                monthlyToggle.classList.remove('inactive');
+                yearlyToggle.classList.remove('active');
+                yearlyToggle.classList.add('inactive');
+                
+                // Update prices for desktop
+                document.getElementById('standard-price').textContent = `€${standardPrice}`;
+                document.getElementById('premium-price').textContent = `€${premiumPrice}`;
+                document.getElementById('vip-price').textContent = `€${vipPrice}`;
+                
+                // Update prices for mobile
+                document.getElementById('standard-price-mobile').textContent = `€${standardPrice}`;
+                document.getElementById('premium-price-mobile').textContent = `€${premiumPrice}`;
+                document.getElementById('vip-price-mobile').textContent = `€${vipPrice}`;
+                
+                // Update billing text for desktop
+                document.getElementById('standard-monthly-text').classList.remove('hidden');
+                document.getElementById('premium-monthly-text').classList.remove('hidden');
+                document.getElementById('vip-monthly-text').classList.remove('hidden');
+                document.getElementById('standard-yearly-text').classList.add('hidden');
+                document.getElementById('premium-yearly-text').classList.add('hidden');
+                document.getElementById('vip-yearly-text').classList.add('hidden');
+                
+                // Update billing text for mobile
+                document.getElementById('standard-monthly-text-mobile').classList.remove('hidden');
+                document.getElementById('premium-monthly-text-mobile').classList.remove('hidden');
+                document.getElementById('vip-monthly-text-mobile').classList.remove('hidden');
+                document.getElementById('standard-yearly-text-mobile').classList.add('hidden');
+                document.getElementById('premium-yearly-text-mobile').classList.add('hidden');
+                document.getElementById('vip-yearly-text-mobile').classList.add('hidden');
+            } else {
+                // Update toggle buttons
+                yearlyToggle.classList.add('active');
+                yearlyToggle.classList.remove('inactive');
+                monthlyToggle.classList.remove('active');
+                monthlyToggle.classList.add('inactive');
+                
+                // Update prices for desktop
+                document.getElementById('standard-price').textContent = `€${Math.round(standardPrice * 0.8)}`;
+                document.getElementById('premium-price').textContent = `€${Math.round(premiumPrice * 0.8)}`;
+                document.getElementById('vip-price').textContent = `€${Math.round(vipPrice * 0.8)}`;
+                
+                // Update prices for mobile
+                document.getElementById('standard-price-mobile').textContent = `€${Math.round(standardPrice * 0.8)}`;
+                document.getElementById('premium-price-mobile').textContent = `€${Math.round(premiumPrice * 0.8)}`;
+                document.getElementById('vip-price-mobile').textContent = `€${Math.round(vipPrice * 0.8)}`;
+                
+                // Update billing text for desktop
+                document.getElementById('standard-monthly-text').classList.add('hidden');
+                document.getElementById('premium-monthly-text').classList.add('hidden');
+                document.getElementById('vip-monthly-text').classList.add('hidden');
+                document.getElementById('standard-yearly-text').classList.remove('hidden');
+                document.getElementById('premium-yearly-text').classList.remove('hidden');
+                document.getElementById('vip-yearly-text').classList.remove('hidden');
+                
+                // Update billing text for mobile
+                document.getElementById('standard-monthly-text-mobile').classList.add('hidden');
+                document.getElementById('premium-monthly-text-mobile').classList.add('hidden');
+                document.getElementById('vip-monthly-text-mobile').classList.add('hidden');
+                document.getElementById('standard-yearly-text-mobile').classList.remove('hidden');
+                document.getElementById('premium-yearly-text-mobile').classList.remove('hidden');
+                document.getElementById('vip-yearly-text-mobile').classList.remove('hidden');
+            }
+        }
+
+        // Pricing carousel functionality
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.pricing-carousel-item');
+        const dots = document.querySelectorAll('.pricing-carousel-dot');
+        const track = document.getElementById('mobile-pricing-carousel');
+        
+        function updateCarousel() {
+            const slideWidth = slides[0].offsetWidth;
+            track.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+            
+            // Update dots
+            dots.forEach((dot, index) => {
+                if (index === currentSlide) {
+                    dot.classList.add('active');
+                } else {
+                    dot.classList.remove('active');
+                }
+            });
+            
+            // Disable/enable navigation buttons
+            document.querySelector('.carousel-btn.prev').disabled = currentSlide === 0;
+            document.querySelector('.carousel-btn.next').disabled = currentSlide === slides.length - 1;
+        }
+        
+        function moveCarousel(direction) {
+            currentSlide += direction;
+            if (currentSlide < 0) currentSlide = 0;
+            if (currentSlide >= slides.length) currentSlide = slides.length - 1;
+            updateCarousel();
+        }
+        
+        function goToSlide(index) {
+            currentSlide = index;
+            updateCarousel();
+        }
+        
+        // Initialize carousel
+        updateCarousel();
+    </script>
+<!-- Login/Register Modal -->
+<div class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black bg-opacity-50 backdrop-blur-sm" id="auth-modal">
+<div class="relative bg-dark-800 rounded-xl shadow-2xl w-full max-w-md overflow-hidden border border-dark-700 animate-fade-in">
+<!-- Close Button -->
+<button class="absolute top-4 right-4 text-dark-300 hover:text-pink-500 transition" id="close-auth-modal">
+<i class="fas fa-times text-xl"></i>
+</button>
+<!-- Tabs -->
+<div class="flex border-b border-dark-700">
+<button class="flex-1 py-4 font-bold text-pink-500 border-b-2 border-pink-500" id="login-tab">
+                    Login
+                </button>
+<button class="flex-1 py-4 font-bold text-dark-300 hover:text-pink-500 transition" id="register-tab">
+                    Register
+                </button>
+</div>
+<!-- Login Form -->
+<div class="p-6" id="login-form">
+<h3 class="text-2xl font-bold mb-6 text-center text-dark-100">Welcome Back</h3>
+<!-- Email -->
+<div class="mb-4">
+<label class="block text-sm font-medium mb-2 text-dark-300" for="login-email">Email Address</label>
+<input class="w-full px-4 py-3 rounded-lg border border-dark-600 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 transition bg-dark-700 text-dark-100" id="login-email" placeholder="your@email.com" type="email"/>
+</div>
+<!-- Password -->
+<div class="mb-6">
+<label class="block text-sm font-medium mb-2 text-dark-300" for="login-password">Password</label>
+<input class="w-full px-4 py-3 rounded-lg border border-dark-600 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 transition bg-dark-700 text-dark-100" id="login-password" placeholder="••••••••" type="password"/>
+<div class="flex justify-end mt-2">
+<a class="text-sm text-pink-500 hover:text-pink-400" href="#">Forgot password?</a>
+</div>
+</div>
+<!-- Login Button -->
+<button class="w-full bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white font-bold py-3 px-4 rounded-lg transition transform hover:scale-[1.02] shadow-md mb-4">
+                    Login
+                </button>
+<!-- Divider -->
+<div class="flex items-center my-6">
+<div class="flex-1 border-t border-dark-600"></div>
+<span class="mx-4 text-dark-400">or</span>
+<div class="flex-1 border-t border-dark-600"></div>
+</div>
+<!-- Google Login -->
+<button class="w-full bg-dark-700 border border-dark-600 hover:border-dark-500 text-dark-100 font-medium py-3 px-4 rounded-lg transition flex items-center justify-center">
+<img alt="Google" class="w-5 h-5 mr-2" src="https://www.google.com/favicon.ico"/>
+                    Continue with Google
+                </button>
+</div>
+<!-- Register Form -->
+<div class="p-6 hidden" id="register-form">
+<h3 class="text-2xl font-bold mb-6 text-center text-dark-100">Create Account</h3>
+<!-- Name -->
+<div class="mb-4">
+<label class="block text-sm font-medium mb-2 text-dark-300" for="register-name">Full Name</label>
+<input class="w-full px-4 py-3 rounded-lg border border-dark-600 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 transition bg-dark-700 text-dark-100" id="register-name" placeholder="John Smith" type="text"/>
+</div>
+<!-- Email -->
+<div class="mb-4">
+<label class="block text-sm font-medium mb-2 text-dark-300" for="register-email">Email Address</label>
+<input class="w-full px-4 py-3 rounded-lg border border-dark-600 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 transition bg-dark-700 text-dark-100" id="register-email" placeholder="your@email.com" type="email"/>
+</div>
+<!-- Phone -->
+<div class="mb-6">
+<label class="block text-sm font-medium mb-2 text-dark-300" for="register-phone">Phone Number</label>
+<input class="w-full px-4 py-3 rounded-lg border border-dark-600 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 transition bg-dark-700 text-dark-100" id="register-phone" placeholder="+356 1234 5678" type="tel"/>
+</div>
+<!-- Register Button -->
+<button class="w-full bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white font-bold py-3 px-4 rounded-lg transition transform hover:scale-[1.02] shadow-md mb-4">
+                    Create Account
+                </button>
+<!-- Divider -->
+<div class="flex items-center my-6">
+<div class="flex-1 border-t border-dark-600"></div>
+<span class="mx-4 text-dark-400">or</span>
+<div class="flex-1 border-t border-dark-600"></div>
+</div>
+<!-- Google Register -->
+<button class="w-full bg-dark-700 border border-dark-600 hover:border-dark-500 text-dark-100 font-medium py-3 px-4 rounded-lg transition flex items-center justify-center">
+<img alt="Google" class="w-5 h-5 mr-2" src="https://www.google.com/favicon.ico"/>
+                    Continue with Google
+                </button>
+<p class="text-sm text-center mt-6 text-dark-400">
+                    By registering, you agree to our <a class="text-pink-500 hover:text-pink-400" href="testterms.html">Terms</a> and <a class="text-pink-500 hover:text-pink-400" href="testprivacy.html">Privacy Policy</a>.
+                </p>
+</div>
+</div>
+</div>
+<script>
+        // Modal toggle functionality
+        const authModal = document.getElementById('auth-modal');
+        const closeModalBtn = document.getElementById('close-auth-modal');
+        const loginTab = document.getElementById('login-tab');
+        const registerTab = document.getElementById('register-tab');
+        const loginForm = document.getElementById('login-form');
+        const registerForm = document.getElementById('register-form');
+        
+        // Function to open modal (call this when your login/register buttons are clicked)
+        function openAuthModal(tab = 'login') {
+            authModal.classList.remove('hidden');
+            if (tab === 'login') {
+                setActiveTab('login');
+            } else {
+                setActiveTab('register');
+            }
+        }
+        
+        // Close modal
+        closeModalBtn.addEventListener('click', () => {
+            authModal.classList.add('hidden');
+        });
+        
+        // Close when clicking outside modal
+        authModal.addEventListener('click', (e) => {
+            if (e.target === authModal) {
+                authModal.classList.add('hidden');
+            }
+        });
+        
+        // Tab switching
+        function setActiveTab(tab) {
+            if (tab === 'login') {
+                loginTab.classList.add('text-pink-500', 'border-pink-500');
+                loginTab.classList.remove('text-dark-300', 'hover:text-pink-500');
+                registerTab.classList.remove('text-pink-500', 'border-pink-500');
+                registerTab.classList.add('text-dark-300', 'hover:text-pink-500');
+                loginForm.classList.remove('hidden');
+                registerForm.classList.add('hidden');
+            } else {
+                registerTab.classList.add('text-pink-500', 'border-pink-500');
+                registerTab.classList.remove('text-dark-300', 'hover:text-pink-500');
+                loginTab.classList.remove('text-pink-500', 'border-pink-500');
+                loginTab.classList.add('text-dark-300', 'hover:text-pink-500');
+                registerForm.classList.remove('hidden');
+                loginForm.classList.add('hidden');
+            }
+        }
+        
+        loginTab.addEventListener('click', () => setActiveTab('login'));
+        registerTab.addEventListener('click', () => setActiveTab('register'));
+    </script>
+</body>
+</html>

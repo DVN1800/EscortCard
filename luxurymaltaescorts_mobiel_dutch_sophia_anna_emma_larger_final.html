@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Premium Escorts in Malta | LuxuryMaltaEscorts</title>
+<meta content="Browse our selection of premium escorts in Malta. Find your perfect companion in Valletta, Sliema, St. Julian's and across the islands." name="description"/>
+<!-- Favicon -->
+<link href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;❤&lt;/text&gt;&lt;/svg&gt;" rel="icon"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            100: '#e5e7eb',
+                            200: '#d1d5db',
+                            300: '#9ca3af',
+                            400: '#6b7280',
+                            500: '#4b5563',
+                            600: '#374151',
+                            700: '#1f2937',
+                            800: '#111827',
+                            900: '#0d1321',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<!-- Flag Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"/>
+<!-- Custom Styles -->
+<style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+        
+        .escort-card {
+            transition: all 0.3s ease;
+        }
+        .escort-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        .gradient-text {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(to right, #ec4899, #f43f5e);
+        }
+        
+        .header-premium {
+            background: rgba(15, 23, 42, 0.96);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Mobile filter menu */
+        #mobile-filter-menu {
+            background: linear-gradient(to bottom, #0f172a, #1f2937);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: #0f172a;
+            z-index: 100;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease-out;
+            overflow-y: auto;
+        }
+        #mobile-filter-menu.active {
+            transform: translateX(0);
+        }
+        
+        /* Contact popup */
+        #contact-popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        #contact-popup.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        /* Slim escort cards for mobile */
+        @media (max-width: 767px) {
+            .escort-card-mobile {
+                padding: 0.75rem;
+            }
+            .escort-card-mobile .escort-info {
+                font-size: 0.8rem;
+            }
+            .escort-card-mobile .escort-name {
+                font-size: 0.9rem;
+            }
+            .escort-card-mobile .escort-price {
+                font-size: 0.85rem;
+            }
+        }
+    
+        /* Mobile filter menu collapsible sections */
+        .filter-section {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .filter-section h4 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            padding: 0.5rem 0;
+        }
+        
+        .filter-section h4 i {
+            transition: transform 0.3s ease;
+        }
+        
+        .filter-section h4.collapsed i {
+            transform: rotate(-90deg);
+        }
+        
+        .filter-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .filter-content.collapsed {
+            max-height: 0 !important;
+        }
+
+        /* Premium desktop filters */
+        .desktop-filters {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .desktop-filters select {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .desktop-filters select:focus {
+            border-color: #ec4899;
+            box-shadow: 0 0 0 1px #ec4899;
+        }
+
+@media (max-width: 767px) {
+  .escort-card .relative.overflow-hidden {
+    height: auto;
+    aspect-ratio: 3 / 4;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .escort-card .relative.overflow-hidden {
+    height: 300px !important;
+    aspect-ratio: unset !important;
+  }
+  .escort-card .relative.overflow-hidden img {
+    height: 100% !important;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .escort-card .relative.overflow-hidden {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .escort-card .relative.overflow-hidden img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .escort-card {
+    padding: 0 !important;
+  }
+  .escort-card .relative.overflow-hidden {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 0 !important;
+  }
+  .escort-card .relative.overflow-hidden img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .escort-card .relative.overflow-hidden {
+    height: 260px !important;
+  }
+  .escort-card .relative.overflow-hidden img {
+    height: 100% !important;
+    object-fit: cover;
+  }
+}
+</style>
+</head>
+<body class="bg-dark-900 text-dark-100 font-sans antialiased">
+<!-- Premium Header -->
+<header class="header-premium sticky top-0 z-50">
+<div class="container mx-auto px-4">
+<!-- Top Bar - Hidden on mobile -->
+<div class="hidden md:flex justify-between items-center py-2 border-b border-dark-700">
+<!-- Contact Info -->
+<div class="hidden md:flex items-center space-x-4 text-sm">
+<a class="text-dark-300 hover:text-pink-500 transition" href="mailto:info@luxurymaltaescorts.com">
+<i class="fas fa-envelope mr-1"></i> info@luxurymaltaescorts.com
+                    </a>
+</div>
+<!-- Language Switcher and Auth -->
+<div class="flex items-center space-x-4">
+<!-- Language Switcher -->
+<div class="relative group hidden md:block">
+<button class="language-switcher-btn text-dark-200 hover:text-pink-500 transition text-sm">
+<span class="flag-icon flag-icon-gb mr-2"></span>
+                            English
+                        </button>
+<div class="language-dropdown absolute right-0 mt-2 py-2 w-48 bg-dark-800 rounded-md shadow-xl z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-dark-700">
+<a class="block px-4 py-2 text-dark-200 hover:bg-dark-700 hover:text-pink-500 transition flex items-center" href="#">
+<span class="flag-icon flag-icon-it mr-2"></span>
+                                Italiano
+                            </a>
+<a class="block px-4 py-2 text-dark-200 hover:bg-dark-700 hover:text-pink-500 transition flex items-center" href="#">
+<span class="flag-icon flag-icon-fr mr-2"></span>
+                                Français
+                            </a>
+<a class="block px-4 py-2 text-dark-200 hover:bg-dark-700 hover:text-pink-500 transition flex items-center" href="#">
+<span class="flag-icon flag-icon-nl mr-2"></span>
+                                Nederlands
+                            </a>
+<a class="block px-4 py-2 text-dark-200 hover:bg-dark-700 hover:text-pink-500 transition flex items-center" href="#">
+<span class="flag-icon flag-icon-de mr-2"></span>
+                                Deutsch
+                            </a>
+<a class="block px-4 py-2 text-dark-200 hover:bg-dark-700 hover:text-pink-500 transition flex items-center" href="#">
+<span class="flag-icon flag-icon-es mr-2"></span>
+                                Español
+                            </a>
+<a class="block px-4 py-2 text-dark-200 hover:bg-dark-700 hover:text-pink-500 transition flex items-center" href="#">
+<span class="flag-icon flag-icon-pt mr-2"></span>
+                                Português
+                            </a>
+<a class="block px-4 py-2 text-dark-200 hover:bg-dark-700 hover:text-pink-500 transition flex items-center" href="#">
+<span class="flag-icon flag-icon-mt mr-2"></span>
+                                Malti
+                            </a>
+</div>
+</div>
+<!-- Auth Buttons -->
+<div class="flex items-center space-x-2">
+<a class="px-4 py-2 rounded-full text-sm font-medium text-pink-500 hover:bg-dark-700 transition" href="#" onclick="openAuthModal('login')">
+                            Login
+                        </a>
+<a class="px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-pink-600 to-purple-600 text-white hover:from-pink-700 hover:to-purple-700 transition" href="#" onclick="openAuthModal('register')">
+                            Register
+                        </a>
+</div>
+</div>
+</div>
+<!-- Main Navigation -->
+<div class="flex justify-between items-center py-3 md:py-4 relative">
+<!-- Mobile Menu Button -->
+<button class="text-dark-200 focus:outline-none md:hidden" id="mobile-menu-button">
+<i class="fas fa-bars text-xl"></i>
+</button>
+<!-- Logo - Centered on mobile -->
+<a class="text-xl font-bold mx-auto md:mx-0 md:relative md:text-2xl" href="index.html">
+<span class="gradient-text">Luxury</span>MaltaEscorts
+                </a>
+<!-- Mobile Auth Buttons -->
+<div class="flex items-center space-x-4 md:hidden">
+<a class="text-pink-500" href="favorites.html">
+<i class="fas fa-heart text-xl"></i>
+</a>
+<button class="text-pink-500 cursor-pointer" onclick="openAuthModal('login')">
+<i class="fas fa-user-circle text-xl"></i>
+</button>
+</div>
+<!-- Desktop Navigation -->
+<nav class="hidden md:flex space-x-8 items-center">
+<a class="text-pink-500 font-medium hover:text-pink-400 transition" href="index.html">Home</a>
+<a class="text-dark-200 hover:text-pink-500 transition" href="escorts.html">
+<i class="fas fa-users mr-1"></i> Escorts
+                    </a>
+<a class="text-dark-200 hover:text-pink-500 transition" href="favorites.html">
+<i class="fas fa-heart mr-1"></i> Favorites
+                    </a>
+<a class="text-dark-200 hover:text-pink-500 transition" href="contact.html">Contact</a>
+</nav>
+</div>
+<!-- Mobile Navigation -->
+<div class="hidden md:hidden absolute left-0 right-0 bg-dark-800 shadow-lg mt-2 mx-4 rounded-lg z-50" id="mobile-menu">
+<div class="py-2 flex flex-col items-center text-center space-y-2">
+<a class="block px-4 py-2 text-pink-500 font-medium hover:bg-dark-700" href="index.html">Home</a>
+<a class="block px-4 py-2 text-dark-200 hover:bg-dark-700 hover:text-pink-500" href="escorts.html">Escorts</a>
+<a class="block px-4 py-2 text-dark-200 hover:bg-dark-700 hover:text-pink-500" href="favorites.html">Favorites</a>
+<a class="block px-4 py-2 text-dark-200 hover:bg-dark-700 hover:text-pink-500" href="contact.html">Contact</a>
+<div class="px-4 py-2">
+<button class="w-full text-left flex items-center text-dark-200 hover:text-pink-500" onclick="openLanguagePopup()">
+<span class="flag-icon flag-icon-gb mr-2"></span>
+                            English
+                        </button>
+</div>
+
+<div class="px-4 py-2 flex flex-col items-center space-y-2 w-full">
+    <a class="w-1/2 text-sm border border-pink-500 text-pink-500 font-medium rounded-lg px-4 py-2 hover:bg-dark-700 transition text-center"
+       href="#"
+       onclick="openAuthModal('login'); mobileMenu.classList.add('hidden');">
+        <i class="fas fa-sign-in-alt mr-2"></i> Inloggen
+    </a>
+    <a class="w-1/2 text-sm bg-gradient-to-r from-pink-600 to-purple-600 text-white font-medium rounded-lg px-4 py-2 hover:from-pink-700 hover:to-purple-700 transition text-center"
+       href="#"
+       onclick="openAuthModal('register'); mobileMenu.classList.add('hidden');">
+        <i class="fas fa-user-plus mr-2"></i> Registreren
+    </a>
+
+<!-- Daily Selection Escort Cards (Mobile Only) -->
+<div class="px-2 pt-2 pb-4 md:hidden">
+    <h4 class="text-center text-white font-semibold text-[12px] mb-3 uppercase">Our Daily Selection</h4>
+    <div class="flex justify-between gap-1">
+        <!-- Escort Card 1: Sophia -->
+        <div class="escort-card bg-dark-800 rounded-md border border-dark-700 text-center w-[32%] p-2">
+            <div class="overflow-hidden rounded" style="width:100%; height:100px;">
+                <img alt="Escort Sophia" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=761&q=80"
+                     style="width:100%; height:100px; object-fit:cover;" />
+            </div>
+            <h5 class="font-bold text-dark-100 text-[11px] mt-2 truncate">Sophia</h5>
+            <a href="#" class="block mt-1 bg-purple-600 hover:bg-purple-700 text-white text-[10px] px-3 py-[3px] rounded-full transition w-fit mx-auto">View</a>
+        </div>
+        <!-- Escort Card 2: Anna -->
+        <div class="escort-card bg-dark-800 rounded-md border border-dark-700 text-center w-[32%] p-2">
+            <div class="overflow-hidden rounded" style="width:100%; height:100px;">
+                <img alt="Escort Anna" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=688&q=80"
+                     style="width:100%; height:100px; object-fit:cover;" />
+            </div>
+            <h5 class="font-bold text-dark-100 text-[11px] mt-2 truncate">Anna</h5>
+            <a href="#" class="block mt-1 bg-purple-600 hover:bg-purple-700 text-white text-[10px] px-3 py-[3px] rounded-full transition w-fit mx-auto">View</a>
+        </div>
+        <!-- Escort Card 3: Emma -->
+        <div class="escort-card bg-dark-800 rounded-md border border-dark-700 text-center w-[32%] p-2">
+            <div class="overflow-hidden rounded" style="width:100%; height:100px;">
+                <img alt="Escort Emma" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80"
+                     style="width:100%; height:100px; object-fit:cover;" />
+            </div>
+            <h5 class="font-bold text-dark-100 text-[11px] mt-2 truncate">Emma</h5>
+            <a href="#" class="block mt-1 bg-purple-600 hover:bg-purple-700 text-white text-[10px] px-3 py-[3px] rounded-full transition w-fit mx-auto">View</a>
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<main class="container mx-auto px-4 py-6"><div class="block md:hidden mb-4">
+<input class="w-full bg-dark-800 border border-dark-700 text-dark-200 rounded-lg px-3 py-2 text-xs focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500" placeholder="Search..." type="text"/>
+</div>
+<!-- Sorting and Filter Section -->
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
+<!-- Desktop Filters -->
+<div class="hidden md:flex items-center space-x-4 w-full justify-between">
+<!-- Sort and Advanced Filters -->
+<div class="flex items-center space-x-4">
+<!-- Sort By -->
+<!-- Mobile Search Bar -->
+<div class="flex-1 mx-2">
+<input class="w-full bg-dark-800 border border-dark-700 text-dark-200 rounded-lg px-3 py-2 text-xs focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500" placeholder="Search..." type="text"/>
+</div>
+<div class="relative">
+<select class="bg-dark-800 border border-dark-700 text-dark-200 rounded-lg px-4 py-2 pr-8 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500 text-sm">
+<option>Sort by: Recommended</option>
+<option>Newest</option>
+<option>Price (Low to High)</option>
+<option>Price (High to Low)</option>
+<option>Rating</option>
+<option>Most Viewed</option>
+</select>
+</div>
+<!-- Advanced Filters -->
+<button class="text-pink-500 hover:text-pink-400 text-sm flex items-center" onclick="toggleAdvancedFilters()">
+<i class="fas fa-sliders-h mr-2"></i> Advanced Filters
+                    <i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200" id="advanced-filters-chevron"></i>
+</button>
+</div>
+<!-- Results Count -->
+<div class="text-center">
+<p class="text-dark-300 text-sm md:text-base">
+                    Showing <span class="font-bold text-pink-500">24</span> of <span class="font-bold">86</span> escorts
+                </p>
+</div>
+<!-- Apply Filters Button -->
+<div>
+<button class="bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white font-bold py-2 px-4 rounded-lg transition transform hover:scale-[1.02] text-sm">
+                        Apply Filters
+                    </button>
+</div>
+</div>
+<!-- Mobile Sorting and Filter -->
+<div class="flex md:hidden w-full items-center space-x-2">
+<!-- Sort By -->
+<!-- Mobile Search Bar -->
+<div class="relative flex-1 mr-2">
+<select class="w-full bg-dark-800 border border-dark-700 text-dark-200 rounded-lg px-3 py-2 pr-8 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500 text-xs">
+<option>Recommended</option>
+<option>Newest</option>
+<option>Price (Low)</option>
+<option>Price (High)</option>
+<option>Rating</option>
+<option>Most Viewed</option>
+</select>
+</div>
+<!-- Filter Button -->
+<button class="bg-pink-600 hover:bg-pink-700 text-white px-3 py-2 rounded-lg flex items-center text-sm" onclick="openMobileFilters()">
+<i class="fas fa-filter mr-1"></i> Filters
+                </button>
+</div>
+</div>
+<!-- Desktop Filters -->
+<div class="hidden md:block desktop-filters rounded-xl p-4 mb-8">
+<div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-4">
+<!-- Location -->
+<div>
+<label class="block text-sm font-medium mb-1 text-dark-300">Location</label>
+<select class="w-full bg-dark-700 border border-dark-600 text-dark-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500">
+<option value="">All Locations</option>
+<option>Valletta</option>
+<option>Sliema</option>
+<option>St. Julian's</option>
+<option>Bugibba</option>
+<option>Mdina</option>
+<option>Gozo</option>
+<option>Gzira</option>
+<option>Marsaxlokk</option>
+</select>
+</div>
+<!-- Services -->
+<div>
+<label class="block text-sm font-medium mb-1 text-dark-300">Services</label>
+<select class="w-full bg-dark-700 border border-dark-600 text-dark-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500">
+<option value="">All Services</option>
+<option>GFE</option>
+<option>PSE</option>
+<option>Massage</option>
+<option>Overnight</option>
+<option>Couples</option>
+<option>Fetish</option>
+<option>Travel</option>
+</select>
+</div>
+<!-- Age -->
+<div>
+<label class="block text-sm font-medium mb-1 text-dark-300">Age</label>
+<select class="w-full bg-dark-700 border border-dark-600 text-dark-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500">
+<option value="">Any Age</option>
+<option>18-21</option>
+<option>22-25</option>
+<option>26-30</option>
+<option>31-35</option>
+<option>36+</option>
+</select>
+</div>
+<!-- Price -->
+<div>
+<label class="block text-sm font-medium mb-1 text-dark-300">Price</label>
+<select class="w-full bg-dark-700 border border-dark-600 text-dark-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500">
+<option value="">Any Price</option>
+<option>€100-€150</option>
+<option>€150-€200</option>
+<option>€200-€300</option>
+<option>€300-€500</option>
+<option>€500+</option>
+</select>
+</div>
+<!-- Apply Filters Button -->
+<div class="flex items-end">
+<button class="w-full bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white font-bold py-2 px-4 rounded-lg transition transform hover:scale-[1.02] text-sm">
+                        Apply Filters
+                    </button>
+</div>
+</div>
+<!-- Advanced Filters -->
+<div class="hidden mt-4 pt-4 border-t border-dark-700" id="advanced-filters">
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+<!-- Nationality -->
+<div>
+<label class="block text-sm font-medium mb-1 text-dark-300">Nationality</label>
+<select class="w-full bg-dark-700 border border-dark-600 text-dark-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500">
+<option value="">Any Nationality</option>
+<option>Maltese</option>
+<option>Italian</option>
+<option>Russian</option>
+<option>Romanian</option>
+<option>British</option>
+<option>French</option>
+<option>Spanish</option>
+<option>Other</option>
+</select>
+</div>
+<!-- Hair Color -->
+<div>
+<label class="block text-sm font-medium mb-1 text-dark-300">Hair Color</label>
+<select class="w-full bg-dark-700 border border-dark-600 text-dark-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500">
+<option value="">Any Hair Color</option>
+<option>Blonde</option>
+<option>Brunette</option>
+<option>Black</option>
+<option>Red</option>
+<option>Other</option>
+</select>
+</div>
+<!-- Body Type -->
+<div>
+<label class="block text-sm font-medium mb-1 text-dark-300">Body Type</label>
+<select class="w-full bg-dark-700 border border-dark-600 text-dark-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500">
+<option value="">Any Body Type</option>
+<option>Slim</option>
+<option>Athletic</option>
+<option>Curvy</option>
+<option>BBW</option>
+</select>
+</div>
+<!-- Bust Size -->
+<div>
+<label class="block text-sm font-medium mb-1 text-dark-300">Bust Size</label>
+<select class="w-full bg-dark-700 border border-dark-600 text-dark-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500">
+<option value="">Any Size</option>
+<option>Small (A-B)</option>
+<option>Medium (C-D)</option>
+<option>Large (DD+)</option>
+</select>
+</div>
+<!-- Availability -->
+<div>
+<label class="block text-sm font-medium mb-1 text-dark-300">Availability</label>
+<select class="w-full bg-dark-700 border border-dark-600 text-dark-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500">
+<option value="">Any Time</option>
+<option>Available Now</option>
+<option>Today</option>
+<option>This Week</option>
+<option>Weekend</option>
+</select>
+</div>
+<!-- Tattoos -->
+<div>
+<label class="block text-sm font-medium mb-1 text-dark-300">Tattoos</label>
+<select class="w-full bg-dark-700 border border-dark-600 text-dark-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500">
+<option value="">Any</option>
+<option>Yes</option>
+<option>No</option>
+</select>
+</div>
+<!-- Smoking -->
+<div>
+<label class="block text-sm font-medium mb-1 text-dark-300">Smoking</label>
+<select class="w-full bg-dark-700 border border-dark-600 text-dark-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500">
+<option value="">Any</option>
+<option>Yes</option>
+<option>No</option>
+</select>
+</div>
+<!-- Reset Button -->
+<div class="flex items-end">
+<button class="w-full bg-dark-700 hover:bg-dark-600 text-dark-200 font-bold py-2 px-4 rounded-lg transition text-sm border border-dark-600">
+                            Reset Filters
+                        </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Escort Listings -->
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
+<!-- Escort Card 1 -->
+<div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile">
+<div class="relative overflow-hidden aspect-[3/4]">
+<img alt="Sophia - Premium Escort in Sliema" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=761&amp;q=80"/>
+<div class="absolute top-2 right-2 bg-pink-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        VERIFIED
+                    </div>
+</div>
+<div class="p-2 md:p-3">
+<div class="flex justify-between items-center mb-1">
+<h3 class="font-bold escort-name text-dark-100">Sophia</h3>
+<span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                            €250/h
+                        </span>
+</div>
+<div class="flex justify-between items-center escort-info">
+<p class="text-dark-300 flex items-center text-xs md:text-sm">
+<i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> Sliema
+                        </p>
+<button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Sophia')">
+<i class="fas fa-phone-alt text-xs md:text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Escort Card 2 -->
+<div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile">
+<div class="relative overflow-hidden aspect-[3/4]">
+<img alt="Elena - Luxury Companion in Valletta" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80"/>
+<div class="absolute top-2 right-2 bg-pink-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        NEW
+                    </div>
+</div>
+<div class="p-2 md:p-3">
+<div class="flex justify-between items-center mb-1">
+<h3 class="font-bold escort-name text-dark-100">Elena</h3>
+<span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                            €300/h
+                        </span>
+</div>
+<div class="flex justify-between items-center escort-info">
+<p class="text-dark-300 flex items-center text-xs md:text-sm">
+<i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> Valletta
+                        </p>
+<button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Elena')">
+<i class="fas fa-phone-alt text-xs md:text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Escort Card 3 -->
+<div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile">
+<div class="relative overflow-hidden aspect-[3/4]">
+<img alt="Mia - Elite Escort in St. Julian's" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80"/>
+<div class="absolute top-2 right-2 bg-pink-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        VERIFIED
+                    </div>
+</div>
+<div class="p-2 md:p-3">
+<div class="flex justify-between items-center mb-1">
+<h3 class="font-bold escort-name text-dark-100">Mia</h3>
+<span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                            €350/h
+                        </span>
+</div>
+<div class="flex justify-between items-center escort-info">
+<p class="text-dark-300 flex items-center text-xs md:text-sm">
+<i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> St. Julian's
+                        </p>
+<button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Mia')">
+<i class="fas fa-phone-alt text-xs md:text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Escort Card 4 -->
+<div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile">
+<div class="relative overflow-hidden aspect-[3/4]">
+<img alt="Lily - Sensual Massage in Bugibba" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=686&amp;q=80"/>
+<div class="absolute top-2 right-2 bg-purple-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        MASSAGE
+                    </div>
+</div>
+<div class="p-2 md:p-3">
+<div class="flex justify-between items-center mb-1">
+<h3 class="font-bold escort-name text-dark-100">Lily</h3>
+<span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                            €180/h
+                        </span>
+</div>
+<div class="flex justify-between items-center escort-info">
+<p class="text-dark-300 flex items-center text-xs md:text-sm">
+<i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> Bugibba
+                        </p>
+<button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Lily')">
+<i class="fas fa-phone-alt text-xs md:text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Escort Card 5 -->
+<div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile">
+<div class="relative overflow-hidden aspect-[3/4]">
+<img alt="Anna - Elite Companion in Sliema" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=688&amp;q=80"/>
+<div class="absolute top-2 right-2 bg-pink-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        VERIFIED
+                    </div>
+</div>
+<div class="p-2 md:p-3">
+<div class="flex justify-between items-center mb-1">
+<h3 class="font-bold escort-name text-dark-100">Anna</h3>
+<span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                            €280/h
+                        </span>
+</div>
+<div class="flex justify-between items-center escort-info">
+<p class="text-dark-300 flex items-center text-xs md:text-sm">
+<i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> Sliema
+                        </p>
+<button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Anna')">
+<i class="fas fa-phone-alt text-xs md:text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Escort Card 6 -->
+<div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile">
+<div class="relative overflow-hidden aspect-[3/4]">
+<img alt="Emma - VIP Escort in Valletta" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80"/>
+<div class="absolute top-2 right-2 bg-pink-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        VIP
+                    </div>
+</div>
+<div class="p-2 md:p-3">
+<div class="flex justify-between items-center mb-1">
+<h3 class="font-bold escort-name text-dark-100">Emma</h3>
+<span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                            €400/h
+                        </span>
+</div>
+<div class="flex justify-between items-center escort-info">
+<p class="text-dark-300 flex items-center text-xs md:text-sm">
+<i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> Valletta
+                        </p>
+<button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Emma')">
+<i class="fas fa-phone-alt text-xs md:text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Escort Card 7 -->
+<div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile">
+<div class="relative overflow-hidden aspect-[3/4]">
+<img alt="Olivia - Model Escort in St. Julian's" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80"/>
+<div class="absolute top-2 right-2 bg-pink-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        MODEL
+                    </div>
+</div>
+<div class="p-2 md:p-3">
+<div class="flex justify-between items-center mb-1">
+<h3 class="font-bold escort-name text-dark-100">Olivia</h3>
+<span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                            €450/h
+                        </span>
+</div>
+<div class="flex justify-between items-center escort-info">
+<p class="text-dark-300 flex items-center text-xs md:text-sm">
+<i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> St. Julian's
+                        </p>
+<button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Olivia')">
+<i class="fas fa-phone-alt text-xs md:text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Escort Card 8 -->
+<div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile">
+<div class="relative overflow-hidden aspect-[3/4]">
+<img alt="Sophie - Blonde Beauty in Gzira" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80"/>
+<div class="absolute top-2 right-2 bg-pink-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        NEW
+                    </div>
+</div>
+<div class="p-2 md:p-3">
+<div class="flex justify-between items-center mb-1">
+<h3 class="font-bold escort-name text-dark-100">Sophie</h3>
+<span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                            €220/h
+                        </span>
+</div>
+<div class="flex justify-between items-center escort-info">
+<p class="text-dark-300 flex items-center text-xs md:text-sm">
+<i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> Gzira
+                        </p>
+<button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Sophie')">
+<i class="fas fa-phone-alt text-xs md:text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Pagination -->
+<div class="mt-8 flex justify-center">
+<nav class="flex items-center space-x-1">
+<a class="px-3 py-1 rounded-lg bg-dark-800 text-dark-300 hover:bg-pink-600 hover:text-white transition" href="#">
+<i class="fas fa-chevron-left"></i>
+</a>
+<a class="px-3 py-1 rounded-lg bg-pink-600 text-white" href="#">1</a>
+<a class="px-3 py-1 rounded-lg bg-dark-800 text-dark-300 hover:bg-dark-700 hover:text-white transition" href="#">2</a>
+<a class="px-3 py-1 rounded-lg bg-dark-800 text-dark-300 hover:bg-dark-700 hover:text-white transition" href="#">3</a>
+<span class="px-3 py-1 text-dark-400">...</span>
+<a class="px-3 py-1 rounded-lg bg-dark-800 text-dark-300 hover:bg-dark-700 hover:text-white transition" href="#">8</a>
+<a class="px-3 py-1 rounded-lg bg-dark-800 text-dark-300 hover:bg-pink-600 hover:text-white transition" href="#">
+<i class="fas fa-chevron-right"></i>
+</a>
+</nav>
+</div>
+</main>
+<!-- Mobile Filter Menu -->
+<div id="mobile-filter-menu" style="background: linear-gradient(to bottom, #0f172a, #1f2937); box-shadow: inset 0 0 10px #00000055;">
+<div class="p-4">
+<!-- Header -->
+<div class="flex justify-between items-center mb-6 border-b border-dark-700 pb-4">
+<h3 class="text-xl font-bold text-white">Filters</h3>
+<button class="text-pink-500 hover:text-pink-400 text-xl" onclick="closeMobileFilters()">
+<i class="fas fa-times"></i>
+</button>
+</div>
+<!-- Filter Sections -->
+<div class="space-y-4 pb-4">
+<!-- Location -->
+<div class="filter-section">
+<h4 class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-4 rounded-lg text-xs transition shadow border border-dark-600 w-40 mx-auto uppercase font-semibold text-center flex justify-center items-center" onclick="toggleFilterSection(this)" style="display: flex; align-items: center; justify-content: center; text-align: center; height: auto;">
+                        Location
+                        
+</h4>
+<div class="filter-content grid grid-cols-2 gap-2 pt-2 transition-all duration-300 ease-in-out">
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            All Locations
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Valletta
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Sliema
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            St. Julian's
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Bugibba
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Gozo
+                        </button>
+</div>
+</div>
+<!-- Services -->
+<div class="filter-section">
+<h4 class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-4 rounded-lg text-xs transition shadow border border-dark-600 w-40 mx-auto uppercase font-semibold text-center flex justify-center items-center" onclick="toggleFilterSection(this)" style="display: flex; align-items: center; justify-content: center; text-align: center; height: auto;">
+                        Services
+                        
+</h4>
+<div class="filter-content grid grid-cols-2 gap-2 pt-2 transition-all duration-300 ease-in-out">
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            All Services
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            GFE
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            PSE
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Massage
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Overnight
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Couples
+                        </button>
+</div>
+</div>
+<!-- Price -->
+<div class="filter-section">
+<h4 class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-4 rounded-lg text-xs transition shadow border border-dark-600 w-40 mx-auto uppercase font-semibold text-center flex justify-center items-center" onclick="toggleFilterSection(this)" style="display: flex; align-items: center; justify-content: center; text-align: center; height: auto;">
+                        Price Range
+                        
+</h4>
+<div class="filter-content grid grid-cols-2 gap-2 pt-2 transition-all duration-300 ease-in-out">
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Any Price
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            €100-€150
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            €150-€200
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            €200-€300
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            €300-€500
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            €500+
+                        </button>
+</div>
+</div>
+<!-- Age -->
+<div class="filter-section">
+<h4 class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-4 rounded-lg text-xs transition shadow border border-dark-600 w-40 mx-auto uppercase font-semibold text-center flex justify-center items-center" onclick="toggleFilterSection(this)" style="display: flex; align-items: center; justify-content: center; text-align: center; height: auto;">
+                        Age
+                        
+</h4>
+<div class="filter-content grid grid-cols-2 gap-2 pt-2 transition-all duration-300 ease-in-out">
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Any Age
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            18-21
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            22-25
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            26-30
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            31-35
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            36+
+                        </button>
+</div>
+</div>
+<!-- Nationality -->
+<div class="filter-section">
+<h4 class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-4 rounded-lg text-xs transition shadow border border-dark-600 w-40 mx-auto uppercase font-semibold text-center flex justify-center items-center" onclick="toggleFilterSection(this)" style="display: flex; align-items: center; justify-content: center; text-align: center; height: auto;">
+                        Nationality
+                        
+</h4>
+<div class="filter-content grid grid-cols-2 gap-2 pt-2 transition-all duration-300 ease-in-out">
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Any
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Maltese
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Italian
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Russian
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            British
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Other
+                        </button>
+</div>
+</div>
+<!-- Hair Color -->
+<div class="filter-section">
+<h4 class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-4 rounded-lg text-xs transition shadow border border-dark-600 w-40 mx-auto uppercase font-semibold text-center flex justify-center items-center" onclick="toggleFilterSection(this)" style="display: flex; align-items: center; justify-content: center; text-align: center; height: auto;">
+                        Hair Color
+                        
+</h4>
+<div class="filter-content grid grid-cols-2 gap-2 pt-2 transition-all duration-300 ease-in-out">
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Any
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Blonde
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Brunette
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Black
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Red
+                        </button>
+</div>
+</div>
+<!-- Body Type -->
+<div class="filter-section">
+<h4 class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-4 rounded-lg text-xs transition shadow border border-dark-600 w-40 mx-auto uppercase font-semibold text-center flex justify-center items-center" onclick="toggleFilterSection(this)" style="display: flex; align-items: center; justify-content: center; text-align: center; height: auto;">
+                        Body Type
+                        
+</h4>
+<div class="filter-content grid grid-cols-2 gap-2 pt-2 transition-all duration-300 ease-in-out">
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Any
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Slim
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Athletic
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Curvy
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            BBW
+                        </button>
+</div>
+</div>
+<!-- Bust Size -->
+<div class="filter-section">
+<h4 class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-4 rounded-lg text-xs transition shadow border border-dark-600 w-40 mx-auto uppercase font-semibold text-center flex justify-center items-center" onclick="toggleFilterSection(this)" style="display: flex; align-items: center; justify-content: center; text-align: center; height: auto;">
+                        Bust Size
+                        
+</h4>
+<div class="filter-content grid grid-cols-2 gap-2 pt-2 transition-all duration-300 ease-in-out">
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Any
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Small (A-B)
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Medium (C-D)
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Large (DD+)
+                        </button>
+</div>
+</div>
+<!-- Availability -->
+<div class="filter-section">
+<h4 class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-4 rounded-lg text-xs transition shadow border border-dark-600 w-40 mx-auto uppercase font-semibold text-center flex justify-center items-center" onclick="toggleFilterSection(this)" style="display: flex; align-items: center; justify-content: center; text-align: center; height: auto;">
+                        Availability
+                        
+</h4>
+<div class="filter-content grid grid-cols-2 gap-2 pt-2 transition-all duration-300 ease-in-out">
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Any Time
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Available Now
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Today
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Weekend
+                        </button>
+</div>
+</div>
+<!-- Tattoos -->
+<div class="filter-section">
+<h4 class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-4 rounded-lg text-xs transition shadow border border-dark-600 w-40 mx-auto uppercase font-semibold text-center flex justify-center items-center" onclick="toggleFilterSection(this)" style="display: flex; align-items: center; justify-content: center; text-align: center; height: auto;">
+                        Tattoos
+                        
+</h4>
+<div class="filter-content grid grid-cols-2 gap-2 pt-2 transition-all duration-300 ease-in-out">
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Any
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Yes
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            No
+                        </button>
+</div>
+</div>
+<!-- Smoking -->
+<div class="filter-section">
+<h4 class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-4 rounded-lg text-xs transition shadow border border-dark-600 w-40 mx-auto uppercase font-semibold text-center flex justify-center items-center" onclick="toggleFilterSection(this)" style="display: flex; align-items: center; justify-content: center; text-align: center; height: auto;">
+                        Smoking
+                        
+</h4>
+<div class="filter-content grid grid-cols-2 gap-2 pt-2 transition-all duration-300 ease-in-out">
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Any
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            Yes
+                        </button>
+<button class="bg-gradient-to-r from-dark-700 to-dark-800 hover:from-pink-600 hover:to-purple-700 text-white py-2 px-3 rounded-lg text-xs text-center transition shadow-sm border border-dark-600">
+                            No
+                        </button>
+</div>
+</div>
+</div>
+<!-- Apply and Reset Buttons -->
+<div class="mt-6 bg-dark-800 p-4 border-t border-dark-700 flex justify-between rounded-lg shadow-lg">
+<button class="bg-dark-700 hover:bg-dark-600 text-dark-200 font-bold py-3 px-6 rounded-lg transition flex-1 mr-2">
+                    Reset
+                </button>
+<button class="bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white font-bold py-3 px-6 rounded-lg transition flex-1 ml-2" onclick="closeMobileFilters()">
+                    Apply Filters
+                </button>
+</div>
+</div>
+</div>
+<!-- Contact Popup -->
+<div id="contact-popup">
+<div class="bg-dark-800 rounded-xl p-6 max-w-xs w-full mx-4 border border-dark-700 text-center space-y-4">
+<div class="flex justify-between items-center mb-4">
+<h3 class="text-xl font-bold text-white" id="contact-escort-name">Contact</h3>
+<button class="text-dark-300 hover:text-pink-500" onclick="closeContactPopup()">
+<i class="fas fa-times"></i>
+</button>
+</div>
+<div class="space-y-4 pb-28">
+<!-- Phone Number (copyable) -->
+<div class="flex justify-between items-center bg-dark-700 text-white py-2 px-4 rounded-lg text-sm font-mono select-all">
+<span id="escort-phone">+356 9911 2233</span>
+<button class="ml-2 text-pink-500 hover:text-pink-400 text-xs" onclick="navigator.clipboard.writeText(document.getElementById('escort-phone').innerText)">
+<i class="fas fa-copy"></i> Copy
+    </button>
+</div>
+<!-- WhatsApp -->
+<a class="inline-flex justify-center items-center bg-green-600 hover:bg-green-700 text-white py-2 px-3 rounded-md text-sm transition w-full" href="#">
+<i class="fab fa-whatsapp mr-2"></i> WhatsApp
+</a>
+<!-- Telegram -->
+<a class="inline-flex justify-center items-center bg-blue-500 hover:bg-blue-600 text-white py-2 px-3 rounded-md text-sm transition w-full" href="#">
+<i class="fab fa-telegram-plane mr-2"></i> Telegram
+</a>
+<!-- Send Message -->
+<a class="inline-flex justify-center items-center bg-pink-600 hover:bg-pink-700 text-white py-2 px-3 rounded-md text-sm transition w-full" href="#">
+<i class="fas fa-envelope mr-2"></i> Send Message
+</a>
+<!-- View Profile -->
+<a class="inline-flex justify-center items-center bg-purple-600 hover:bg-purple-700 text-white py-2 px-3 rounded-md text-sm transition w-full" href="#">
+<i class="fas fa-user mr-2"></i> View Profile
+</a>
+<!-- WhatsApp -->
+</div>
+<p class="text-xs text-dark-400 mt-4 text-center">
+                All communications are encrypted for your privacy and security.
+            </p>
+</div>
+</div>
+<!-- Footer -->
+<footer class="bg-gray-900 text-white pt-16 pb-8">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 text-center">
+<!-- About -->
+<div>
+<h3 class="text-xl font-bold mb-4">LuxuryMaltaEscorts</h3>
+<p class="text-gray-400">
+                        Malta's premier directory for high-end companion services. Connecting discerning clients with verified, premium escorts across the islands.
+                    </p>
+</div>
+<!-- Quick Links -->
+<div>
+<h3 class="text-lg font-bold mb-4">Quick Links</h3>
+<ul class="space-y-2">
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="index.html">Home</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="escorts.html"> Escorts</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="favorites.html"> Favorites</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="contact.html">Contact</a></li>
+</ul>
+</div>
+<!-- Information -->
+<div>
+<h3 class="text-lg font-bold mb-4">Information</h3>
+<ul class="space-y-2">
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="about.html">About Us</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="safety.html">Safety Tips</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="terms.html">Terms</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="privacy.html">Privacy Policy</a></li>
+<li><a class="text-gray-400 hover:text-pink-500 transition" href="models.html">Models Wanted</a></li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div>
+<h3 class="text-lg font-bold mb-4">Newsletter</h3>
+<p class="text-gray-400 mb-4">
+                        Subscribe for updates on new companions and exclusive offers.
+                    </p>
+<form class="flex max-w-md mx-auto">
+<input class="px-4 py-2 rounded-l-lg focus:outline-none text-gray-900 w-full" placeholder="Your email" type="email"/>
+<button class="bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-r-lg transition" type="submit">
+<i class="fas fa-paper-plane"></i>
+</button>
+</form>
+<div class="mt-4 flex space-x-4 justify-center">
+<a class="text-gray-400 hover:text-pink-500 transition" href="#">
+<i class="fab fa-facebook-f"></i>
+</a>
+<a class="text-gray-400 hover:text-pink-500 transition" href="#">
+<i class="fab fa-twitter"></i>
+</a>
+<a class="text-gray-400 hover:text-pink-500 transition" href="#">
+<i class="fab fa-instagram"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="pt-8 border-t border-dark-700">
+<div class="flex flex-col md:flex-row justify-between items-center">
+<p class="text-sm mb-4 md:mb-0">
+                        © 2023 LuxuryMaltaEscorts. All rights reserved.
+                    </p>
+<div class="flex space-x-6 text-sm">
+<a class="hover:text-pink-500 transition" href="privacy.html">Privacy Policy</a>
+<a class="hover:text-pink-500 transition" href="terms.html">Terms of Service</a>
+<a class="hover:text-pink-500 transition" href="disclaimer.html">Disclaimer</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!-- Scripts -->
+<script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', function(e) {
+            e.stopPropagation();
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!mobileMenu.contains(e.target)) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+        
+        // Mobile filter menu
+        function openMobileFilters() {
+            document.getElementById('mobile-filter-menu').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeMobileFilters() {
+            document.getElementById('mobile-filter-menu').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+        
+        // Contact popup
+        function openContactPopup(name) {
+            document.getElementById('contact-escort-name').textContent = `Contact ${name}`;
+            document.getElementById('contact-popup').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeContactPopup() {
+            document.getElementById('contact-popup').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+        
+        // Close popup when clicking outside
+        document.getElementById('contact-popup').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeContactPopup();
+            }
+        });
+        
+        // Advanced filters toggle
+        function toggleAdvancedFilters() {
+            const advancedFilters = document.getElementById('advanced-filters');
+            const chevron = document.getElementById('advanced-filters-chevron');
+            
+            advancedFilters.classList.toggle('hidden');
+            
+            if (advancedFilters.classList.contains('hidden')) {
+                chevron.style.transform = 'rotate(0deg)';
+            } else {
+                chevron.style.transform = 'rotate(180deg)';
+            }
+        }
+        
+// Mobile filter sections toggle
+function toggleFilterSection(header) {
+    const section = header.parentElement;
+    const content = section.querySelector('.filter-content');
+    const isOpening = header.classList.contains('collapsed'); // If header has 'collapsed', we are about to open it.
+
+    header.classList.toggle('collapsed'); // Toggle header state
+
+    if (isOpening) {
+        // We are OPENING the section
+        content.classList.remove('collapsed'); // Remove class to allow max-height to be > 0
+        // Set max-height to scrollHeight to trigger transition
+        content.style.maxHeight = content.scrollHeight + 'px';
+        // After transition, set maxHeight to 'none' to allow dynamic content
+        setTimeout(() => {
+            // Check if it's still open (user could have clicked again quickly)
+            if (!header.classList.contains('collapsed')) {
+                content.style.maxHeight = 'none';
+            }
+        }, 300); // Match CSS transition duration
+    } else {
+        // We are CLOSING the section
+        // 1. Set maxHeight from 'auto' (or 'none') back to a pixel value (current scrollHeight)
+        //    so the transition to '0' can animate.
+        content.style.maxHeight = content.scrollHeight + 'px';
+        // 2. In the next frame (or after a tiny delay), set maxHeight to '0' and add 'collapsed' class.
+        requestAnimationFrame(() => {
+            content.classList.add('collapsed'); // Add class to ensure 'max-height: 0 !important' if CSS is used
+            content.style.maxHeight = '0';
+        });
+    }
+}
+        
+        // Initialize all filter sections as collapsed
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.filter-section');
+            sections.forEach(section => {
+                const header = section.querySelector('h4');
+                const content = section.querySelector('.filter-content');
+
+                header.classList.add('collapsed');
+                content.classList.add('collapsed'); // Add this line
+                content.style.maxHeight = '0'; // Keep this line
+            });
+        });
+        
+        // Modal toggle functionality
+        function openAuthModal(tab = 'login') {
+            // This would open your auth modal
+            console.log(`Open auth modal with tab: ${tab}`);
+        }
+        
+        // Language popup functions
+        function openLanguagePopup() {
+            // This would open your language popup
+            console.log('Open language popup');
+        }
+    </script>
+</body>
+</html>

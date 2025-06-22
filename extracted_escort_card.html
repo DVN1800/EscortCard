@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extracted Escort Card</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            100: '#e5e7eb', // text-dark-100
+                            200: '#d1d5db',
+                            300: '#9ca3af', // text-dark-300
+                            400: '#6b7280',
+                            500: '#4b5563',
+                            600: '#374151',
+                            700: '#1f2937', // border-dark-700
+                            800: '#111827', // bg-dark-800
+                            900: '#0d1321', // bg-dark-900 (body background)
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+    <style>
+        /* Basic body and font setup */
+        body {
+            background-color: #0d1321; /* bg-dark-900 */
+            color: #e5e7eb; /* text-dark-100 */
+            font-family: sans-serif; /* Tailwind's default sans-serif stack */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            padding: 20px; /* Added padding to see the card clearly */
+        }
+
+        .escort-card {
+            transition: all 0.3s ease;
+        }
+        .escort-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Styles for .escort-card-mobile and its children for mobile view */
+        @media (max-width: 767px) {
+            .escort-card-mobile {
+                /* padding: 0.75rem; Applied via Tailwind p-3, then removed by .escort-card padding:0 below */
+            }
+            .escort-card-mobile .escort-info {
+                font-size: 0.8rem;
+            }
+            .escort-card-mobile .escort-name {
+                font-size: 0.9rem;
+            }
+            .escort-card-mobile .escort-price {
+                font-size: 0.85rem;
+            }
+
+            /* Most specific rules for .escort-card on mobile */
+            .escort-card {
+                padding: 0 !important;
+            }
+            .escort-card .relative.overflow-hidden {
+                margin: 0 !important;
+                padding: 0 !important;
+                width: 100% !important;
+                border-radius: 0 !important;
+                height: 260px !important; /* Final height for mobile image container */
+            }
+            .escort-card .relative.overflow-hidden img {
+                width: 100% !important;
+                height: 100% !important; /* Image fills the container height */
+                object-fit: cover;
+                display: block;
+            }
+        }
+
+        /* Fallback for Tailwind dark mode colors if CDN/config doesn't catch them for some reason */
+        /* Not strictly necessary if Tailwind config is working, but good for isolation */
+        .bg-dark-800 { background-color: #111827; }
+        .border-dark-700 { border-color: #1f2937; }
+        .text-dark-100 { color: #e5e7eb; }
+        .text-dark-300 { color: #9ca3af; }
+
+        /* The onclick event for the button is not part of CSS,
+           but a placeholder function might be needed if testing interactions.
+           For pure display, it's not needed. */
+        function openContactPopup(name) {
+            console.log(`Contact popup for ${name} requested.`);
+            alert(`Contact popup for ${name} requested.`);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Escort Card 1 -->
+    <div class="escort-card bg-dark-800 rounded-lg overflow-hidden shadow-md border border-dark-700 escort-card-mobile max-w-xs mx-auto">
+        <div class="relative overflow-hidden aspect-[3/4]">
+            <img alt="Sophia - Premium Escort in Sliema" class="w-full h-full object-cover transition duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=761&amp;q=80"/>
+            <div class="absolute top-2 right-2 bg-pink-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                                VERIFIED
+            </div>
+        </div>
+        <div class="p-2 md:p-3">
+            <div class="flex justify-between items-center mb-1">
+                <h3 class="font-bold escort-name text-dark-100">Sophia</h3>
+                <span class="bg-pink-900 bg-opacity-20 text-pink-400 text-xs md:text-sm font-semibold px-2 py-1 rounded escort-price">
+                                    €250/h
+                </span>
+            </div>
+            <div class="flex justify-between items-center escort-info">
+                <p class="text-dark-300 flex items-center text-xs md:text-sm">
+                    <i class="fas fa-map-marker-alt text-pink-500 mr-1 text-xs"></i> Sliema
+                </p>
+                <button class="text-pink-500 hover:text-pink-400 transition" onclick="openContactPopup('Sophia')">
+                    <i class="fas fa-phone-alt text-xs md:text-sm"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
